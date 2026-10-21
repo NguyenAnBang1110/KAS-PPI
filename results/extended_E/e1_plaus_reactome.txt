@@ -1,0 +1,13 @@
+REACTOME gene sets kept 1253 universe 18722
+seekx|rf TP 988 shared 843 informative 673
+   D                hit@1 0.582  p@3 0.611  ndcg@3 0.596 
+   LOO              hit@1 0.605  p@3 0.620  ndcg@3 0.607 p(hit1)=0.13 p(ndcg)=0.27
+   SEEKN            hit@1 0.572  p@3 0.613  ndcg@3 0.593 p(hit1)=0.61 p(ndcg)=0.69
+   SEEKS            hit@1 0.621  p@3 0.644  ndcg@3 0.637 p(hit1)=0.022 p(ndcg)=3.8e-07
+   random           hit@1 0.573  p@3 0.573  ndcg@3 0.578 p(hit1)=0.98 p(ndcg)=0.045
+seekx|xgb TP 1001 shared 855 informative 684
+   D                hit@1 0.583  p@3 0.622  ndcg@3 0.611 
+   LOO              hit@1 0.678  p@3 0.648  ndcg@3 0.664 p(hit1)=1e-07 p(ndcg)=3.7e-10
+   SEEKN            hit@1 0.611  p@3 0.628  ndcg@3 0.637 p(hit1)=0.17 p(ndcg)=0.0023
+   SEEKS            hit@1 0.654  p@3 0.655  ndcg@3 0.676 p(hit1)=0.00043 p(ndcg)=2.9e-16
+   random           hit@1 0.573  p@3 0.573  ndcg@3 0.579 p(hit1)=0.97 p(ndcg)=0.00013

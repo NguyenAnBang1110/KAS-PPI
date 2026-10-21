@@ -1,0 +1,14 @@
+== sanity checks, seek view, RF, fold 1, 300 pairs
+  model seed1: WAF 0.909, same predicted class as reference 0.980
+  model seed2: WAF 0.910, same predicted class as reference 0.983
+  model seed3: WAF 0.910, same predicted class as reference 0.977
+  model seed4: WAF 0.912, same predicted class as reference 0.990
+  model randlabel: WAF 0.497, same predicted class as reference 0.520
+  method   | seeds 1-4: rho / top1 / jac3   | permuted labels: rho / top1 / jac3 | drop in rho
+  D        | 0.922 / 0.851 / 0.895          | -0.061 / 0.287 / 0.437              | 0.982
+  LOO      | 0.825 / 0.787 / 0.779          | 0.005 / 0.283 / 0.433              | 0.820
+  SEEKN    | 0.681 / 0.593 / 0.685          | 0.011 / 0.280 / 0.443              | 0.670
+  SEEKS    | 0.861 / 0.830 / 0.848          | -0.019 / 0.340 / 0.488              | 0.880
+  RF vs XGB, same 2200 pairs (both models predict the same class in 0.958):
+    D        rho 0.608  top-1 same 0.576
+    LOO      rho 0.507  top-1 same 0.567

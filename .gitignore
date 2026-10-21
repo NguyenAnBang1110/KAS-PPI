@@ -1,0 +1,14 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+# dữ liệu tải từ hai kho gốc và STRING, không phân phối lại
+ExplainablePPI/
+seek/
+godata/
+*.gaf
+*.owl
+protein.links.detailed.*
+protein.aliases.*
+# kết quả thô theo từng cặp: đưa lên mục Release
+ket_qua_tho*.zip
+*.npz

@@ -1,0 +1,9 @@
+{
+ "alg": "GP",
+ "fold": 1,
+ "seed": 0,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_gamma001.npz",
+ "WAF": 0.891146786335572,
+ "seconds": 102,
+ "model": "Max(immune_system_process, multicellular_organismal_process, Min((Max(cellular_anatomical_entity, cellular_process) + Max(2*binding, cellular_process, metabolic_process))*Max(cellular_process, metabolic_process)**2*Max(cellular_anatomical_entity, cellular_process, metabolic_process), Max(binding, cellular_anatomical_entity, cellular_process, metabolic_process)))"
+}

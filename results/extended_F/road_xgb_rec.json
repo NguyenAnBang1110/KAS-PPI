@@ -1,0 +1,1 @@
+{"model": "xgb", "src": "rec", "n": 2200, "methods": ["D", "FS0", "LIME", "LOO", "LORE", "TreeSHAP"], "disc_auc": {"imp": 0.672917380218442, "zero": 0.9463670700612703, "knn": 0.44787266430718875}}

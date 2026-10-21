@@ -1,0 +1,26 @@
+== SEEK view, RF: 2200 pairs (10 folds) ==
+  method     del_ks   ins_ks  del_dca  ins_dca   pars    cov
+  D           0.479    0.845    0.510    0.823   3.12  0.983
+  LOO         0.553    0.811    0.568    0.805   2.83  0.969
+  SEEKN       0.593    0.778    0.585    0.793   2.93  0.941
+  SEEKS       0.574    0.784    0.544    0.802   3.31  0.976
+  random      0.647    0.713    0.634    0.720              
+  D vs LOO    p(del_ks) 2.3e-143 p(ins_ks) 1.4e-50 p(del_dca) 5.7e-78 p(ins_dca) 2.1e-11 | D better del_ks 0.62 del_dca 0.56
+  D vs SEEKN  p(del_ks) 1.1e-222 p(ins_ks) 1.2e-132 p(del_dca) 7.5e-90 p(ins_dca) 2.8e-22 | D better del_ks 0.74 del_dca 0.60
+  D vs SEEKS  p(del_ks) 6e-221 p(ins_ks) 3.1e-153 p(del_dca) 1.5e-34 p(ins_dca) 1.9e-28 | D better del_ks 0.74 del_dca 0.55
+  D vs random p(del_ks) 6.7e-306 p(ins_ks) 1.3e-280 p(del_dca) 3e-179 p(ins_dca) 2.3e-199 | D better del_ks 0.88 del_dca 0.76
+  agreement with KAS: top-1 same LOO 0.65 SEEKN 0.48 SEEKS 0.42 | Jaccard@3 LOO 0.67 SEEKN 0.58 SEEKS 0.63
+  SEEK native: DCAs/pair mean 8.7 (median 7), outside every aspect 0.7%; pairs with >=1 necessary DCA 18.2%; necessary 0.41, sufficient 5.35 per pair; KAS top-1 inside a SEEK-necessary aspect 0.76; time 0.010s
+== SEEK view, XGB: 2200 pairs (10 folds) ==
+  method     del_ks   ins_ks  del_dca  ins_dca   pars    cov
+  D           0.472    0.944    0.519    0.938   3.20  0.989
+  LOO         0.610    0.881    0.630    0.887   2.26  0.951
+  SEEKN       0.667    0.849    0.664    0.876   2.67  0.941
+  SEEKS       0.604    0.883    0.579    0.913   4.26  0.981
+  random      0.711    0.795    0.710    0.810              
+  D vs LOO    p(del_ks) 1.3e-193 p(ins_ks) 1.2e-107 p(del_dca) 1.4e-123 p(ins_dca) 6.1e-47 | D better del_ks 0.71 del_dca 0.65
+  D vs SEEKN  p(del_ks) 1.6e-266 p(ins_ks) 1.5e-150 p(del_dca) 2.3e-157 p(ins_dca) 1.3e-43 | D better del_ks 0.81 del_dca 0.69
+  D vs SEEKS  p(del_ks) 2.2e-230 p(ins_ks) 3.6e-147 p(del_dca) 1e-49 p(ins_dca) 1e-28 | D better del_ks 0.77 del_dca 0.57
+  D vs random p(del_ks) 3.4e-301 p(ins_ks) 2.1e-273 p(del_dca) 4.4e-182 p(ins_dca) 1.4e-194 | D better del_ks 0.87 del_dca 0.75
+  agreement with KAS: top-1 same LOO 0.55 SEEKN 0.41 SEEKS 0.36 | Jaccard@3 LOO 0.57 SEEKN 0.52 SEEKS 0.61
+  SEEK native: DCAs/pair mean 8.7 (median 7), outside every aspect 0.7%; pairs with >=1 necessary DCA 19.4%; necessary 0.46, sufficient 5.51 per pair; KAS top-1 inside a SEEK-necessary aspect 0.78; time 0.002s

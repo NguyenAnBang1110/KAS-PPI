@@ -1,0 +1,42 @@
+seed 0: our frequent rules 22; paper rules found exactly in >=1 model 18/18, in >=5 models 18/18, near (bounds +-0.1) in >=5 models 18/18; our frequent rules matching a paper rule (near) 18/22
+ 1 binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -                            paper 10/17216  ours exact 10/17216 near 10
+ 2 cellular_process > 0.8 & metabolic_process > 0.6  => +                                                         paper  5/ 4837  ours exact  5/ 4837 near  5
+ 3 cellular_process > 0.9 & metabolic_process <= 0.6  => +                                                        paper  5/ 2359  ours exact  5/ 2359 near  5
+ 4 cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +                                         paper  6/ 2082  ours exact  6/ 2082 near  6
+ 5 binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => - paper 10/ 1403  ours exact 10/ 1403 near 10
+ 6 binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => - paper 10/  841  ours exact 10/  841 near 10
+ 7 0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => + paper 10/  574  ours exact 10/  574 near 10
+ 8 binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => + paper 10/  515  ours exact 10/  515 near 10
+ 9 binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => + paper  8/  472  ours exact  8/  472 near  8
+10 0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => - paper  6/  350  ours exact  6/  350 near  6
+11 binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => + paper  6/  268  ours exact  6/  268 near  6
+12 binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => + paper  6/  248  ours exact  6/  248 near  6
+13 0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => - paper 10/  217  ours exact 10/  217 near 10
+14 binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => - paper  7/  210  ours exact  7/  210 near  7
+15 0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => - paper  6/  157  ours exact  6/  157 near  6
+16 biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +          paper  6/  101  ours exact  6/  101 near  6
+17 0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => + paper  7/   93  ours exact  6/   79 near  6
+18 biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -          paper  5/   86  ours exact  5/   86 near  5
+our frequent rules (seed 0):
+  10 models 17216 pairs  binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -
+   5 models  4837 pairs  cellular_process > 0.8 & metabolic_process > 0.6  => +
+   5 models  2359 pairs  cellular_process > 0.9 & metabolic_process <= 0.6  => +
+   6 models  2082 pairs  cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +
+  10 models  1403 pairs  binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -
+  10 models   841 pairs  binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -
+  10 models   574 pairs  0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +
+  10 models   515 pairs  binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +
+   8 models   472 pairs  binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +
+   6 models   350 pairs  0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -
+   6 models   268 pairs  binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +
+   6 models   248 pairs  binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +
+  10 models   217 pairs  0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -
+   7 models   210 pairs  binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -
+   6 models   157 pairs  0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -
+   6 models   101 pairs  biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +
+   5 models    86 pairs  biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -
+   6 models    79 pairs  0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +
+   5 models     9 pairs  biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & cellular_process <= 0.0  => +
+   6 models     0 pairs  0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & 0.1 < cellular_process <= 0.6  => -
+   5 models     0 pairs  biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization > 0.1  => +
+   5 models     0 pairs  biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization <= 0.1  => -

@@ -1,0 +1,27 @@
+== two-direction ROAR, kg + RF, 47142 pairs, base WAF 0.9246 ==
+  method    | MoRF drop k=1/2/3 (up)  | LeRF drop k=1/2/3 (down) | gap k=1/2/3 (up)        | mask-only MoRF/LeRF k=1
+  D         | 0.080 0.113 0.132       | 0.008 0.019 0.069       | 0.073 0.092 0.062       | 0.682 / 0.653
+  FS0       | 0.086 0.130 0.184       | 0.009 0.020 0.083       | 0.076 0.109 0.105       | 0.658 / 0.641
+  LIME      | 0.061 0.083 0.123       | 0.021 0.024 0.052       | 0.040 0.061 0.071       | 0.704 / 0.777
+  LOO       | 0.084 0.126 0.205       | 0.008 0.022 0.079       | 0.075 0.104 0.126       | 0.593 / 0.631
+  TreeSHAP  | 0.090 0.132 0.195       | 0.007 0.017 0.085       | 0.081 0.113 0.114       | 0.521 / 0.604
+  random    | 0.052 0.096 0.162       | -                       | -                       | 0.556 / -
+  p D_LeRF_greater_FS0_1 0.00977
+  p D_LeRF_greater_FS0_3 0.000977
+  p D_LeRF_greater_LIME_1 0.000977
+  p D_LeRF_greater_LIME_2 0.00195
+  p D_LeRF_greater_LOO_1 0.138
+  p D_LeRF_greater_LOO_3 0.00195
+  p D_LeRF_greater_TreeSHAP_1 0.752
+  p D_LeRF_greater_TreeSHAP_3 0.000977
+  p D_MoRF_less_FS0_1 0.999
+  p D_MoRF_less_LIME_1 0.000977
+  p D_MoRF_less_LIME_2 0.000977
+  p D_MoRF_less_LIME_3 0.0186
+  p D_MoRF_less_LOO_1 0.92
+  p D_MoRF_less_TreeSHAP_1 1
+  p D_gap_greater_FS0_1 0.997
+  p D_gap_greater_LIME_1 0.000977
+  p D_gap_greater_LIME_2 0.000977
+  p D_gap_greater_LOO_1 0.935
+  p D_gap_greater_TreeSHAP_1 1

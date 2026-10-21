@@ -1,0 +1,102 @@
+===== hyb|mlp n 600 acc 0.930 k_med 5.0
+  D                del 0.494  ins 0.935 pars 3.20 cov 0.987 cons 0.993 cont 0.935 t 0.108
+  LOO              del 0.598  ins 0.892 pars 2.32 cov 0.955 cons 1.000 cont 0.923 t 0.008
+  random           del 0.719  ins 0.775 
+   wil_del_D_vs_LOO {'diff': -0.1035, 'D_better': 0.65, 'ties': 0.1567, 'p': 0.0}
+   wil_ins_D_vs_LOO {'diff': 0.0428, 'D_better': 0.485, 'ties': 0.15, 'p': 0.0}
+   wil_del_D_vs_random {'diff': -0.2249, 'D_better': 0.885, 'ties': 0.0383, 'p': 0.0}
+   wil_ins_D_vs_random {'diff': 0.16, 'D_better': 0.8733, 'ties': 0.035, 'p': 0.0}
+===== hyb|rf n 2200 acc 0.927 k_med 5.0
+  D                del 0.485  ins 0.844 pars 3.15 cov 0.983 cons 0.990 cont 0.949 t 0.147
+  LOO              del 0.561  ins 0.819 pars 2.70 cov 0.967 cons 1.000 cont 0.919 t 0.020
+  TreeSHAP_KGpart  del 0.587  ins 0.793 pars 2.98 cov 1.000 cons 1.000 cont 0.970 t 0.359
+  random           del 0.642  ins 0.718 
+   wil_del_D_vs_LOO {'diff': -0.0758, 'D_better': 0.6623, 'ties': 0.145, 'p': 0.0}
+   wil_ins_D_vs_LOO {'diff': 0.0243, 'D_better': 0.4782, 'ties': 0.1527, 'p': 0.0}
+   wil_del_D_vs_TreeSHAP_KGpart {'diff': -0.1015, 'D_better': 0.7973, 'ties': 0.0523, 'p': 0.0}
+   wil_ins_D_vs_TreeSHAP_KGpart {'diff': 0.0502, 'D_better': 0.6877, 'ties': 0.0705, 'p': 0.0}
+   wil_del_D_vs_random {'diff': -0.1566, 'D_better': 0.8609, 'ties': 0.0514, 'p': 0.0}
+   wil_ins_D_vs_random {'diff': 0.1255, 'D_better': 0.8609, 'ties': 0.0536, 'p': 0.0}
+===== hyb|xgb n 2200 acc 0.928 k_med 5.0
+  D                del 0.483  ins 0.937 pars 3.19 cov 0.989 cons 0.991 cont 0.939 t 0.127
+  LOO              del 0.625  ins 0.878 pars 2.10 cov 0.953 cons 1.000 cont 0.897 t 0.009
+  TreeSHAP_KGpart  del 0.642  ins 0.867 pars 3.58 cov 1.000 cons 1.000 cont 0.957 t 0.022
+  random           del 0.700  ins 0.784 
+   wil_del_D_vs_LOO {'diff': -0.1426, 'D_better': 0.735, 'ties': 0.0977, 'p': 0.0}
+   wil_ins_D_vs_LOO {'diff': 0.0592, 'D_better': 0.5664, 'ties': 0.0936, 'p': 0.0}
+   wil_del_D_vs_TreeSHAP_KGpart {'diff': -0.1589, 'D_better': 0.82, 'ties': 0.0391, 'p': 0.0}
+   wil_ins_D_vs_TreeSHAP_KGpart {'diff': 0.0704, 'D_better': 0.7109, 'ties': 0.0405, 'p': 0.0}
+   wil_del_D_vs_random {'diff': -0.2171, 'D_better': 0.8632, 'ties': 0.0545, 'p': 0.0}
+   wil_ins_D_vs_random {'diff': 0.1532, 'D_better': 0.8355, 'ties': 0.0527, 'p': 0.0}
+===== kg|mlp n 600 acc 0.927 k_med 5.0
+  D                del 0.448  ins 0.888 pars 2.93 cov 0.995 cons 0.992 cont 0.968 t 0.099
+  LOO              del 0.521  ins 0.867 pars 2.24 cov 0.988 cons 1.000 cont 0.955 t 0.006
+  FS0              del 0.477  ins 0.866 pars 2.99 cov 0.995 cons 0.991 cont 0.972 t 0.001
+  LIME             del 0.796  ins 0.626 pars 6.86 cov 1.000 cons 0.406 cont 0.768 t 0.058
+  random           del 0.631  ins 0.724 
+   wil_del_D_vs_LOO {'diff': -0.0726, 'D_better': 0.6817, 'ties': 0.1483, 'p': 0.0}
+   wil_ins_D_vs_LOO {'diff': 0.0204, 'D_better': 0.4083, 'ties': 0.1417, 'p': 0.0}
+   wil_del_D_vs_FS0 {'diff': -0.0285, 'D_better': 0.3717, 'ties': 0.4167, 'p': 0.0}
+   wil_ins_D_vs_FS0 {'diff': 0.0222, 'D_better': 0.4483, 'ties': 0.3883, 'p': 0.0}
+   wil_del_D_vs_LIME {'diff': -0.3478, 'D_better': 0.9633, 'ties': 0.0117, 'p': 0.0}
+   wil_ins_D_vs_LIME {'diff': 0.262, 'D_better': 0.9667, 'ties': 0.0033, 'p': 0.0}
+   wil_del_D_vs_random {'diff': -0.1828, 'D_better': 0.8633, 'ties': 0.0433, 'p': 0.0}
+   wil_ins_D_vs_random {'diff': 0.1638, 'D_better': 0.8767, 'ties': 0.0433, 'p': 0.0}
+===== kg|rf n 2200 acc 0.923 k_med 5.0
+  D                del 0.428  ins 0.890 pars 3.10 cov 0.990 cons 0.992 cont 0.955 t 0.142
+  LOO              del 0.584  ins 0.810 pars 2.39 cov 0.947 cons 1.000 cont 0.936 t 0.019
+  FS0              del 0.453  ins 0.856 pars 3.23 cov 0.990 cons 0.995 cont 0.966 t 0.016
+  TreeSHAP         del 0.539  ins 0.852 pars 3.80 cov 1.000 cons 1.000 cont 0.963 t 0.307
+  LIME             del 0.725  ins 0.736 pars 6.06 cov 1.000 cons 0.542 cont 0.568 t 0.102
+  random           del 0.627  ins 0.738 
+   wil_del_D_vs_LOO {'diff': -0.1565, 'D_better': 0.7641, 'ties': 0.1027, 'p': 0.0}
+   wil_ins_D_vs_LOO {'diff': 0.0793, 'D_better': 0.5136, 'ties': 0.1641, 'p': 0.0}
+   wil_del_D_vs_FS0 {'diff': -0.0249, 'D_better': 0.395, 'ties': 0.3745, 'p': 0.0}
+   wil_ins_D_vs_FS0 {'diff': 0.0337, 'D_better': 0.4014, 'ties': 0.3932, 'p': 0.0}
+   wil_del_D_vs_TreeSHAP {'diff': -0.1115, 'D_better': 0.7909, 'ties': 0.0745, 'p': 0.0}
+   wil_ins_D_vs_TreeSHAP {'diff': 0.0374, 'D_better': 0.5864, 'ties': 0.1195, 'p': 0.0}
+   wil_del_D_vs_LIME {'diff': -0.2968, 'D_better': 0.9282, 'ties': 0.0205, 'p': 0.0}
+   wil_ins_D_vs_LIME {'diff': 0.1532, 'D_better': 0.8132, 'ties': 0.0345, 'p': 0.0}
+   wil_del_D_vs_random {'diff': -0.1987, 'D_better': 0.86, 'ties': 0.0632, 'p': 0.0}
+   wil_ins_D_vs_random {'diff': 0.1514, 'D_better': 0.8173, 'ties': 0.0755, 'p': 0.0}
+===== kg|xgb n 2200 acc 0.924 k_med 5.0
+  D                del 0.436  ins 0.921 pars 3.07 cov 0.990 cons 0.993 cont 0.957 t 0.125
+  LOO              del 0.568  ins 0.884 pars 2.22 cov 0.979 cons 1.000 cont 0.951 t 0.008
+  FS0              del 0.480  ins 0.893 pars 3.35 cov 0.990 cons 0.993 cont 0.965 t 0.002
+  TreeSHAP         del 0.547  ins 0.880 pars 4.55 cov 1.000 cons 1.000 cont 0.962 t 0.011
+  LIME             del 0.808  ins 0.719 pars 6.46 cov 1.000 cons 0.413 cont 0.535 t 0.066
+  random           del 0.657  ins 0.763 
+   wil_del_D_vs_LOO {'diff': -0.1318, 'D_better': 0.7341, 'ties': 0.13, 'p': 0.0}
+   wil_ins_D_vs_LOO {'diff': 0.0367, 'D_better': 0.4932, 'ties': 0.1223, 'p': 0.0}
+   wil_del_D_vs_FS0 {'diff': -0.0444, 'D_better': 0.4441, 'ties': 0.3645, 'p': 0.0}
+   wil_ins_D_vs_FS0 {'diff': 0.0279, 'D_better': 0.425, 'ties': 0.3514, 'p': 0.0}
+   wil_del_D_vs_TreeSHAP {'diff': -0.1116, 'D_better': 0.7718, 'ties': 0.0664, 'p': 0.0}
+   wil_ins_D_vs_TreeSHAP {'diff': 0.0407, 'D_better': 0.6064, 'ties': 0.0664, 'p': 0.0}
+   wil_del_D_vs_LIME {'diff': -0.3723, 'D_better': 0.9564, 'ties': 0.0177, 'p': 0.0}
+   wil_ins_D_vs_LIME {'diff': 0.202, 'D_better': 0.9177, 'ties': 0.0159, 'p': 0.0}
+   wil_del_D_vs_random {'diff': -0.221, 'D_better': 0.8709, 'ties': 0.0609, 'p': 0.0}
+   wil_ins_D_vs_random {'diff': 0.1581, 'D_better': 0.8591, 'ties': 0.0591, 'p': 0.0}
+===== seek|mlp n 600 acc 0.925 k_med 5.0
+  D                del 0.484  ins 0.953 pars 3.21 cov 0.993 cons 0.987 cont 0.951 t 0.088
+  LOO              del 0.605  ins 0.909 pars 2.48 cov 0.973 cons 1.000 cont 0.923 t 0.006
+  random           del 0.724  ins 0.798 
+   wil_del_D_vs_LOO {'diff': -0.1208, 'D_better': 0.6717, 'ties': 0.135, 'p': 0.0}
+   wil_ins_D_vs_LOO {'diff': 0.0443, 'D_better': 0.4767, 'ties': 0.1333, 'p': 0.0}
+   wil_del_D_vs_random {'diff': -0.2405, 'D_better': 0.8817, 'ties': 0.0467, 'p': 0.0}
+   wil_ins_D_vs_random {'diff': 0.1557, 'D_better': 0.87, 'ties': 0.0433, 'p': 0.0}
+===== seek|rf n 2200 acc 0.911 k_med 5.0
+  D                del 0.479  ins 0.845 pars 3.12 cov 0.983 cons 0.990 cont 0.944 t 0.132
+  LOO              del 0.553  ins 0.811 pars 2.83 cov 0.969 cons 1.000 cont 0.903 t 0.018
+  random           del 0.645  ins 0.715 
+   wil_del_D_vs_LOO {'diff': -0.0737, 'D_better': 0.6182, 'ties': 0.1582, 'p': 0.0}
+   wil_ins_D_vs_LOO {'diff': 0.0339, 'D_better': 0.5109, 'ties': 0.1809, 'p': 0.0}
+   wil_del_D_vs_random {'diff': -0.1658, 'D_better': 0.86, 'ties': 0.0505, 'p': 0.0}
+   wil_ins_D_vs_random {'diff': 0.1297, 'D_better': 0.8505, 'ties': 0.0545, 'p': 0.0}
+===== seek|xgb n 2200 acc 0.915 k_med 5.0
+  D                del 0.472  ins 0.944 pars 3.20 cov 0.989 cons 0.991 cont 0.940 t 0.124
+  LOO              del 0.610  ins 0.881 pars 2.28 cov 0.953 cons 1.000 cont 0.892 t 0.008
+  random           del 0.705  ins 0.796 
+   wil_del_D_vs_LOO {'diff': -0.1377, 'D_better': 0.7118, 'ties': 0.1118, 'p': 0.0}
+   wil_ins_D_vs_LOO {'diff': 0.0629, 'D_better': 0.5836, 'ties': 0.1105, 'p': 0.0}
+   wil_del_D_vs_random {'diff': -0.2328, 'D_better': 0.8691, 'ties': 0.0577, 'p': 0.0}
+   wil_ins_D_vs_random {'diff': 0.1481, 'D_better': 0.8359, 'ties': 0.0555, 'p': 0.0}

@@ -1,0 +1,9 @@
+{
+ "alg": "GP6x",
+ "fold": 9,
+ "seed": 2,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "WAF": 0.8627474725274032,
+ "seconds": 68,
+ "model": "Max(catalytic_activity, cellular_process, multicellular_organismal_process, behavior - 3*cellular_process + molecular_function_regulator, biological_regulation + carbohydrate_utilization - 3*cellular_process - 0.254)"
+}

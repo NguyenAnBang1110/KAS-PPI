@@ -1,0 +1,1 @@
+{"model": "rf", "src": "rec", "n": 2200, "methods": ["D", "FS0", "LIME", "LOO", "LORE", "TreeSHAP"], "disc_auc": {"imp": 0.6388665884899873, "zero": 0.9415569186361176, "knn": 0.4332559083528775}}

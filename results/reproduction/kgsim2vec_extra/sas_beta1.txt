@@ -1,0 +1,43 @@
+http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex
+http://purl.obolibrary.org/obo/GO_0044217	other organism part
+http://purl.obolibrary.org/obo/GO_0044423	virion part
+http://purl.obolibrary.org/obo/GO_0110165	cellular anatomical entity
+http://purl.obolibrary.org/obo/GO_0000003	reproduction
+http://purl.obolibrary.org/obo/GO_0002376	immune system process
+http://purl.obolibrary.org/obo/GO_0007610	behavior
+http://purl.obolibrary.org/obo/GO_0008152	metabolic process
+http://purl.obolibrary.org/obo/GO_0009987	cellular process
+http://purl.obolibrary.org/obo/GO_0019740	nitrogen utilization
+http://purl.obolibrary.org/obo/GO_0022414	reproductive process
+http://purl.obolibrary.org/obo/GO_0022610	biological adhesion
+http://purl.obolibrary.org/obo/GO_0023052	signaling
+http://purl.obolibrary.org/obo/GO_0032501	multicellular organismal process
+http://purl.obolibrary.org/obo/GO_0032502	developmental process
+http://purl.obolibrary.org/obo/GO_0040007	growth
+http://purl.obolibrary.org/obo/GO_0040011	locomotion
+http://purl.obolibrary.org/obo/GO_0043473	pigmentation
+http://purl.obolibrary.org/obo/GO_0044419	interspecies interaction between organisms
+http://purl.obolibrary.org/obo/GO_0044848	biological phase
+http://purl.obolibrary.org/obo/GO_0048511	rhythmic process
+http://purl.obolibrary.org/obo/GO_0050896	response to stimulus
+http://purl.obolibrary.org/obo/GO_0051179	localization
+http://purl.obolibrary.org/obo/GO_0051703	intraspecies interaction between organisms
+http://purl.obolibrary.org/obo/GO_0051704	multi-organism process
+http://purl.obolibrary.org/obo/GO_0065007	biological regulation
+http://purl.obolibrary.org/obo/GO_0098754	detoxification
+http://purl.obolibrary.org/obo/GO_0110148	biomineralization
+http://purl.obolibrary.org/obo/GO_0003824	catalytic activity
+http://purl.obolibrary.org/obo/GO_0005198	structural molecule activity
+http://purl.obolibrary.org/obo/GO_0005215	transporter activity
+http://purl.obolibrary.org/obo/GO_0005488	binding
+http://purl.obolibrary.org/obo/GO_0016209	antioxidant activity
+http://purl.obolibrary.org/obo/GO_0038024	cargo receptor activity
+http://purl.obolibrary.org/obo/GO_0045182	translation regulator activity
+http://purl.obolibrary.org/obo/GO_0060089	molecular transducer activity
+http://purl.obolibrary.org/obo/GO_0060090	molecular adaptor activity
+http://purl.obolibrary.org/obo/GO_0098772	molecular function regulator
+http://purl.obolibrary.org/obo/GO_0140104	molecular carrier activity
+http://purl.obolibrary.org/obo/GO_0140299	small molecule sensor activity
+http://purl.obolibrary.org/obo/GO_0140313	molecular sequestering activity
+http://purl.obolibrary.org/obo/GO_0140489	molecular template activity
+http://purl.obolibrary.org/obo/GO_0140522	fusogenic activity

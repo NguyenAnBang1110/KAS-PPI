@@ -1,0 +1,19 @@
+== LORE (lore_sa, genetic neighbourhood 1,000) vs others, KGsim2vec view, XGB, 600 pairs
+  LORE surrogate fidelity (local DT vs model on neighbourhood): mean 1.000
+  rule length mean 5.62; empty rule 0.005; rule mentions >=1 player aspect 0.980; share of rule aspects that are non-players 0.468
+  coverage (>=1 ranked aspect) 0.995; time/pair 13.7 s (KAS 0.62 s)
+  method    deletion AUC (down)  insertion AUC (up)   [operator ks, NaN pairs = no ranked aspect, excluded]
+  D         0.420                0.853
+  LOO       0.549                0.830
+  FS0       0.468                0.826
+  TreeSHAP  0.527                0.815
+  LIME      0.812                0.673
+  LORE      0.720                0.679
+  random    0.659                0.708
+  KAS vs LOO      : deletion p=5.9e-62 KAS lower in 0.72 of pairs; insertion p=3.1e-13 KAS higher in 0.48
+  KAS vs FS0      : deletion p=1e-24 KAS lower in 0.47 of pairs; insertion p=1.2e-19 KAS higher in 0.43
+  KAS vs TreeSHAP : deletion p=5.8e-58 KAS lower in 0.75 of pairs; insertion p=4.2e-29 KAS higher in 0.60
+  KAS vs LIME     : deletion p=1.2e-96 KAS lower in 0.97 of pairs; insertion p=5.2e-90 KAS higher in 0.93
+  KAS vs LORE     : deletion p=1.5e-89 KAS lower in 0.89 of pairs; insertion p=1.3e-81 KAS higher in 0.86
+  KAS vs random   : deletion p=1.6e-85 KAS lower in 0.87 of pairs; insertion p=6.4e-86 KAS higher in 0.88
+  top-1 aspect same as KAS: 0.310

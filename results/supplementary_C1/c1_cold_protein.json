@@ -1,0 +1,307 @@
+{
+ "env": {
+  "python": "3.11.15",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.1"
+ },
+ "design": "5 protein groups, rng(0); train = pairs with no protein in g; test both-new or one-new; RF100 rs=0",
+ "n_proteins": 6750,
+ "results": {
+  "both_new|g0": {
+   "n_train": 30410,
+   "n_test": 1859,
+   "test_pos_rate": 0.4889725658956428,
+   "KGsim2vec": {
+    "waf": 0.9004,
+    "auc": 0.9633,
+    "sec": 1.1
+   },
+   "SEEK": {
+    "waf": 0.8911,
+    "auc": 0.9579,
+    "sec": 8.0
+   },
+   "Hybrid": {
+    "waf": 0.9154,
+    "auc": 0.9711,
+    "sec": 6.3
+   },
+   "degree_only": {
+    "waf": 0.3457,
+    "auc": 0.5
+   }
+  },
+  "both_new|g1": {
+   "n_train": 30310,
+   "n_test": 1866,
+   "test_pos_rate": 0.4678456591639871,
+   "KGsim2vec": {
+    "waf": 0.9033,
+    "auc": 0.962,
+    "sec": 0.8
+   },
+   "SEEK": {
+    "waf": 0.8811,
+    "auc": 0.9561,
+    "sec": 8.0
+   },
+   "Hybrid": {
+    "waf": 0.9059,
+    "auc": 0.9666,
+    "sec": 6.5
+   },
+   "degree_only": {
+    "waf": 0.2982,
+    "auc": 0.5
+   }
+  },
+  "both_new|g2": {
+   "n_train": 29759,
+   "n_test": 1923,
+   "test_pos_rate": 0.514820592823713,
+   "KGsim2vec": {
+    "waf": 0.9059,
+    "auc": 0.9633,
+    "sec": 0.8
+   },
+   "SEEK": {
+    "waf": 0.8861,
+    "auc": 0.9552,
+    "sec": 7.9
+   },
+   "Hybrid": {
+    "waf": 0.9017,
+    "auc": 0.9672,
+    "sec": 6.3
+   },
+   "degree_only": {
+    "waf": 0.317,
+    "auc": 0.5
+   }
+  },
+  "both_new|g3": {
+   "n_train": 29890,
+   "n_test": 1975,
+   "test_pos_rate": 0.5194936708860759,
+   "KGsim2vec": {
+    "waf": 0.9079,
+    "auc": 0.9683,
+    "sec": 0.9
+   },
+   "SEEK": {
+    "waf": 0.8978,
+    "auc": 0.9589,
+    "sec": 7.8
+   },
+   "Hybrid": {
+    "waf": 0.9135,
+    "auc": 0.9708,
+    "sec": 6.1
+   },
+   "degree_only": {
+    "waf": 0.3119,
+    "auc": 0.5
+   }
+  },
+  "both_new|g4": {
+   "n_train": 30516,
+   "n_test": 1836,
+   "test_pos_rate": 0.4711328976034858,
+   "KGsim2vec": {
+    "waf": 0.9264,
+    "auc": 0.9711,
+    "sec": 0.8
+   },
+   "SEEK": {
+    "waf": 0.8945,
+    "auc": 0.9633,
+    "sec": 7.9
+   },
+   "Hybrid": {
+    "waf": 0.9302,
+    "auc": 0.9765,
+    "sec": 6.3
+   },
+   "degree_only": {
+    "waf": 0.3659,
+    "auc": 0.5
+   }
+  },
+  "one_new|g0": {
+   "n_train": 30410,
+   "n_test": 14873,
+   "test_pos_rate": 0.4954615746655012,
+   "KGsim2vec": {
+    "waf": 0.9138,
+    "auc": 0.9699,
+    "sec": 0.8
+   },
+   "SEEK": {
+    "waf": 0.896,
+    "auc": 0.959,
+    "sec": 8.6
+   },
+   "Hybrid": {
+    "waf": 0.9181,
+    "auc": 0.9719,
+    "sec": 6.2
+   },
+   "degree_only": {
+    "waf": 0.5749,
+    "auc": 0.6106
+   }
+  },
+  "one_new|g1": {
+   "n_train": 30310,
+   "n_test": 14966,
+   "test_pos_rate": 0.4931845516504076,
+   "KGsim2vec": {
+    "waf": 0.9094,
+    "auc": 0.9659,
+    "sec": 0.8
+   },
+   "SEEK": {
+    "waf": 0.8931,
+    "auc": 0.9591,
+    "sec": 8.4
+   },
+   "Hybrid": {
+    "waf": 0.91,
+    "auc": 0.9694,
+    "sec": 6.6
+   },
+   "degree_only": {
+    "waf": 0.5807,
+    "auc": 0.6455
+   }
+  },
+  "one_new|g2": {
+   "n_train": 29759,
+   "n_test": 15460,
+   "test_pos_rate": 0.5097024579560155,
+   "KGsim2vec": {
+    "waf": 0.9107,
+    "auc": 0.9649,
+    "sec": 0.8
+   },
+   "SEEK": {
+    "waf": 0.8877,
+    "auc": 0.953,
+    "sec": 7.8
+   },
+   "Hybrid": {
+    "waf": 0.909,
+    "auc": 0.966,
+    "sec": 6.3
+   },
+   "degree_only": {
+    "waf": 0.6005,
+    "auc": 0.6506
+   }
+  },
+  "one_new|g3": {
+   "n_train": 29890,
+   "n_test": 15277,
+   "test_pos_rate": 0.5130588466321921,
+   "KGsim2vec": {
+    "waf": 0.9196,
+    "auc": 0.9726,
+    "sec": 0.8
+   },
+   "SEEK": {
+    "waf": 0.9012,
+    "auc": 0.9635,
+    "sec": 7.8
+   },
+   "Hybrid": {
+    "waf": 0.9216,
+    "auc": 0.9753,
+    "sec": 6.7
+   },
+   "degree_only": {
+    "waf": 0.5817,
+    "auc": 0.6677
+   }
+  },
+  "one_new|g4": {
+   "n_train": 30516,
+   "n_test": 14790,
+   "test_pos_rate": 0.4968221771467208,
+   "KGsim2vec": {
+    "waf": 0.9162,
+    "auc": 0.9684,
+    "sec": 0.8
+   },
+   "SEEK": {
+    "waf": 0.89,
+    "auc": 0.9565,
+    "sec": 8.1
+   },
+   "Hybrid": {
+    "waf": 0.9167,
+    "auc": 0.9698,
+    "sec": 6.2
+   },
+   "degree_only": {
+    "waf": 0.62,
+    "auc": 0.6696
+   }
+  }
+ },
+ "summary": {
+  "both_new": {
+   "KGsim2vec": {
+    "median_waf": 0.9059,
+    "min_waf": 0.9004,
+    "max_waf": 0.9264,
+    "median_auc": 0.9633
+   },
+   "SEEK": {
+    "median_waf": 0.8911,
+    "min_waf": 0.8811,
+    "max_waf": 0.8978,
+    "median_auc": 0.9579
+   },
+   "Hybrid": {
+    "median_waf": 0.9135,
+    "min_waf": 0.9017,
+    "max_waf": 0.9302,
+    "median_auc": 0.9708
+   },
+   "degree_only": {
+    "median_waf": 0.317,
+    "min_waf": 0.2982,
+    "max_waf": 0.3659,
+    "median_auc": 0.5
+   },
+   "n_test_total": 9459
+  },
+  "one_new": {
+   "KGsim2vec": {
+    "median_waf": 0.9138,
+    "min_waf": 0.9094,
+    "max_waf": 0.9196,
+    "median_auc": 0.9684
+   },
+   "SEEK": {
+    "median_waf": 0.8931,
+    "min_waf": 0.8877,
+    "max_waf": 0.9012,
+    "median_auc": 0.959
+   },
+   "Hybrid": {
+    "median_waf": 0.9167,
+    "min_waf": 0.909,
+    "max_waf": 0.9216,
+    "median_auc": 0.9698
+   },
+   "degree_only": {
+    "median_waf": 0.5817,
+    "min_waf": 0.5749,
+    "max_waf": 0.62,
+    "median_auc": 0.6506
+   },
+   "n_test_total": 75366
+  }
+ }
+}

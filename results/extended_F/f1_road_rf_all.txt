@@ -1,0 +1,25 @@
+== ROAD-style imputation, KGsim2vec view, RF, 47142 pairs; discriminator AUC imp 0.866 zero 0.969
+-- operator imp
+  method    | MoRF AUC (down) | LeRF AUC (up) | gap (up) | MoRF p@k1 k2 k3 | flip@1
+  D         | 0.677           | 0.813         | 0.136    | 0.820 0.727 0.652 | 0.114
+  FS0       | 0.664           | 0.826         | 0.162    | 0.807 0.708 0.638 | 0.129
+  LIME      | 0.725           | 0.782         | 0.058    | 0.835 0.778 0.720 | 0.102
+  LOO       | 0.681           | 0.816         | 0.135    | 0.817 0.723 0.661 | 0.117
+  TreeSHAP  | 0.646           | 0.833         | 0.187    | 0.799 0.686 0.606 | 0.141
+  random    | 0.754           | nan         | nan    | 0.870 0.821 0.760 | 0.066
+  KAS vs FS0      : MoRF p=0 folds KAS better 0/10  LeRF p=0 folds KAS better 0/10  gap p=0 folds KAS better 0/10
+  KAS vs LIME     : MoRF p=0 folds KAS better 10/10  LeRF p=0 folds KAS better 10/10  gap p=0 folds KAS better 10/10
+  KAS vs LOO      : MoRF p=3.2e-17 folds KAS better 10/10  LeRF p=3.3e-42 folds KAS better 0/10  gap p=0.0012 folds KAS better 5/10
+  KAS vs TreeSHAP : MoRF p=0 folds KAS better 0/10  LeRF p=0 folds KAS better 0/10  gap p=0 folds KAS better 0/10
+-- operator zero
+  method    | MoRF AUC (down) | LeRF AUC (up) | gap (up) | MoRF p@k1 k2 k3 | flip@1
+  D         | 0.553           | 0.766         | 0.213    | 0.770 0.626 0.511 | 0.134
+  FS0       | 0.516           | 0.790         | 0.274    | 0.730 0.583 0.463 | 0.154
+  LIME      | 0.634           | 0.714         | 0.080    | 0.795 0.704 0.622 | 0.098
+  LOO       | 0.568           | 0.771         | 0.203    | 0.747 0.625 0.537 | 0.147
+  TreeSHAP  | 0.537           | 0.786         | 0.249    | 0.741 0.605 0.489 | 0.148
+  random    | 0.676           | nan         | nan    | 0.852 0.775 0.672 | 0.070
+  KAS vs FS0      : MoRF p=0 folds KAS better 0/10  LeRF p=0 folds KAS better 0/10  gap p=0 folds KAS better 0/10
+  KAS vs LIME     : MoRF p=0 folds KAS better 10/10  LeRF p=0 folds KAS better 10/10  gap p=0 folds KAS better 10/10
+  KAS vs LOO      : MoRF p=0 folds KAS better 10/10  LeRF p=0 folds KAS better 0/10  gap p=0 folds KAS better 10/10
+  KAS vs TreeSHAP : MoRF p=0 folds KAS better 0/10  LeRF p=0 folds KAS better 0/10  gap p=0 folds KAS better 0/10

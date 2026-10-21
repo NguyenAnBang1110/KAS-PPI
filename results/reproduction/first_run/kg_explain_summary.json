@@ -1,0 +1,40 @@
+{
+ "DT6": {
+  "median_SumIC": 0.8511119956031183,
+  "median_AvgIC": 0.21277799890077959,
+  "median_size": 4.0,
+  "WAF_fold1": 0.9034128860330303
+ },
+ "DT": {
+  "median_SumIC": 2.292814101443381,
+  "median_AvgIC": 0.27428775543084094,
+  "median_size": 9.0,
+  "WAF_fold1": 0.8999130042699309
+ },
+ "RF": {
+  "LIME3": {
+   "median_SumIC": 0.6144572331607872,
+   "median_AvgIC": 0.2048190777202624,
+   "median_size": 3.0
+  },
+  "LIME8": {
+   "median_SumIC": 4.08526153010197,
+   "median_AvgIC": 0.5106576912627463,
+   "median_size": 8.0
+  },
+  "n_pairs": 100
+ },
+ "XGB": {
+  "LIME3": {
+   "median_SumIC": 0.6144572331607872,
+   "median_AvgIC": 0.2048190777202624,
+   "median_size": 3.0
+  },
+  "LIME8": {
+   "median_SumIC": 4.366575520763579,
+   "median_AvgIC": 0.5458219400954474,
+   "median_size": 8.0
+  },
+  "n_pairs": 100
+ }
+}

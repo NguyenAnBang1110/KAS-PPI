@@ -1,0 +1,283 @@
+{
+ "cases": {
+  "T3 RPS12-RPS10": {
+   "pair": [
+    "P25398",
+    "P46783"
+   ],
+   "label": 1,
+   "test_fold": 10,
+   "paper": "metabolic_process > 0.5167 AND cellular_process > 0.8032",
+   "fold1": {
+    "model_fold": 1,
+    "pair_in_training_set": true,
+    "rule_seed0": "if (cellular_anatomical_entity > 0.7972685098648071) and (cellular_process > 0.7530770599842072): class = 1",
+    "seeds_reproducing_paper_thresholds": []
+   },
+   "own_fold": {
+    "model_fold": 10,
+    "pair_in_training_set": false,
+    "rule_seed0": "if (metabolic_process > 0.5166615545749664) and (cellular_process > 0.8031722903251648): class = 1",
+    "seeds_reproducing_paper_thresholds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "T4 S100A10-AHNAK": {
+   "pair": [
+    "P60903",
+    "Q09666"
+   ],
+   "label": 1,
+   "test_fold": 3,
+   "paper": "binding <= 0.4693 AND cellular_anatomical_entity > 0.1162 AND cellular_process <= 0.0399 AND biological_regulation <= 0.5484",
+   "fold1": {
+    "model_fold": 1,
+    "pair_in_training_set": true,
+    "rule_seed0": "if (binding <= 0.4692501872777939) and (cellular_anatomical_entity > 0.1161932721734047) and (cellular_process <= 0.03986246511340141) and (biological_regulation <= 0.5483885407447815): class = 0",
+    "seeds_reproducing_paper_thresholds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "own_fold": {
+    "model_fold": 3,
+    "pair_in_training_set": false,
+    "rule_seed0": "if (binding <= 0.4692501872777939) and (cellular_anatomical_entity > 0.1161932721734047) and (cellular_process <= 0.03986246511340141) and (biological_regulation <= 0.5483885407447815): class = 0",
+    "seeds_reproducing_paper_thresholds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "T5 PRR5L-GNL3L": {
+   "pair": [
+    "Q6MZQ0",
+    "Q9NVN8"
+   ],
+   "label": 0,
+   "test_fold": 4,
+   "paper": "binding <= 0.4693 AND 0.0399 < cellular_process <= 0.6145 AND biological_regulation <= 0.5484",
+   "fold1": {
+    "model_fold": 1,
+    "pair_in_training_set": true,
+    "rule_seed0": "if (binding <= 0.4692501872777939) and (0.03986246511340141 < cellular_process <= 0.6145413517951965) and (biological_regulation <= 0.5483885407447815): class = 0",
+    "seeds_reproducing_paper_thresholds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "own_fold": {
+    "model_fold": 4,
+    "pair_in_training_set": false,
+    "rule_seed0": "if (binding <= 0.4692501872777939) and (0.03986246511340141 < cellular_process <= 0.6145413517951965) and (biological_regulation <= 0.5483885407447815): class = 0",
+    "seeds_reproducing_paper_thresholds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "T6 TGFA-DLG2": {
+   "pair": [
+    "P01135",
+    "Q15700"
+   ],
+   "label": 0,
+   "test_fold": 10,
+   "paper": "cellular_anatomical_entity > 0.7589 AND metabolic_process > 0.6023 AND (3rd condition cut in PDF text)",
+   "fold1": {
+    "model_fold": 1,
+    "pair_in_training_set": true,
+    "rule_seed0": "if (cellular_anatomical_entity > 0.7243963181972504) and (metabolic_process > 0.602328360080719) and (0.6145413517951965 < cellular_process <= 0.7530770599842072): class = 1",
+    "seeds_reproducing_paper_thresholds": []
+   },
+   "own_fold": {
+    "model_fold": 10,
+    "pair_in_training_set": false,
+    "rule_seed0": "if (cellular_anatomical_entity > 0.7588843107223511) and (metabolic_process > 0.602328360080719) and (0.6145413517951965 < cellular_process <= 0.7530770599842072): class = 1",
+    "seeds_reproducing_paper_thresholds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "T7 PXN-ITGA4": {
+   "pair": [
+    "P49023",
+    "P13612"
+   ],
+   "label": 1,
+   "test_fold": 5,
+   "paper": "metabolic_process <= 0.6048 AND cellular_process > 0.8535",
+   "fold1": {
+    "model_fold": 1,
+    "pair_in_training_set": true,
+    "rule_seed0": "if (cellular_anatomical_entity > 0.7972685098648071) and (cellular_process > 0.7530770599842072): class = 1",
+    "seeds_reproducing_paper_thresholds": []
+   },
+   "own_fold": {
+    "model_fold": 5,
+    "pair_in_training_set": false,
+    "rule_seed0": "if (metabolic_process <= 0.6047515869140625) and (cellular_process > 0.8535175919532776): class = 1",
+    "seeds_reproducing_paper_thresholds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "T8 PSMC1-PSMB3": {
+   "pair": [
+    "P62191",
+    "P49720"
+   ],
+   "label": 1,
+   "test_fold": 1,
+   "paper": "cellular_anatomical_entity > 0.7973 AND cellular_process > 0.7531",
+   "fold1": {
+    "model_fold": 1,
+    "pair_in_training_set": false,
+    "rule_seed0": "if (cellular_anatomical_entity > 0.7972685098648071) and (cellular_process > 0.7530770599842072): class = 1",
+    "seeds_reproducing_paper_thresholds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "own_fold": {
+    "model_fold": 1,
+    "pair_in_training_set": false,
+    "rule_seed0": "if (cellular_anatomical_entity > 0.7972685098648071) and (cellular_process > 0.7530770599842072): class = 1",
+    "seeds_reproducing_paper_thresholds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ]
+   }
+  }
+ },
+ "lime_quartiles_fold1_train": {
+  "cellular_process": [
+   0.16,
+   0.49,
+   0.84
+  ],
+  "metabolic_process": [
+   0.0,
+   0.1,
+   0.61
+  ],
+  "biological_regulation": [
+   0.0,
+   0.23,
+   0.57
+  ],
+  "cellular_anatomical_entity": [
+   0.51,
+   0.86,
+   1.0
+  ]
+ },
+ "lime_rf10_own_fold": {
+  "T3 RPS12-RPS10": {
+   "LIME3": "[('cellular_process > 0.84', 0.428447630940908), ('metabolic_process > 0.61', 0.24069023210981055), ('biological_regulation > 0.57', 0.15148772962014448)]",
+   "LIME8": "[('cellular_process > 0.84', 0.43418769129743817), ('metabolic_process > 0.61', 0.25408276545995157), ('biological_regulation > 0.57', 0.157284711859999), ('growth <= 0.00', 0.15719016624689575), ('behavior <= 0.00', -0.12594600077802462), ('molecular_carrier_activity <= 0.00', 0.11632653224240348), ('intraspecies_interaction_between_organisms <= 0.00', 0.11053380865166317), ('detoxification <= 0.00', -0.0522633846942327)]",
+   "RF10_pred": 1
+  },
+  "T4 S100A10-AHNAK": {
+   "LIME3": "[('cellular_process <= 0.16', -0.24143342240393242), ('metabolic_process <= 0.00', -0.13546278966759046), ('0.86 < cellular_anatomical_entity <= 1.00', 0.12859365097603756)]",
+   "LIME8": "[('cellular_process <= 0.16', -0.2553851776485774), ('biomineralization <= 0.00', -0.24791274859507856), ('metabolic_process <= 0.00', -0.13340622540991548), ('0.86 < cellular_anatomical_entity <= 1.00', 0.12330932663653157), ('structural_molecule_activity <= 0.00', -0.1156979531753722), ('molecular_adaptor_activity <= 0.00', -0.10174859004910389), ('0.23 < biological_regulation <= 0.57', -0.07311128533729268), ('molecular_carrier_activity <= 0.00', -0.029891897654462866)]",
+   "RF10_pred": 0
+  },
+  "T5 PRR5L-GNL3L": {
+   "LIME3": "[('cellular_process <= 0.16', -0.2719262128783289), ('cellular_anatomical_entity <= 0.53', -0.14499059181288043), ('metabolic_process <= 0.00', -0.10658324045210829)]",
+   "LIME8": "[('cellular_process <= 0.16', -0.2728376343889138), ('cellular_anatomical_entity <= 0.53', -0.16034775056958817), ('structural_molecule_activity <= 0.00', -0.14237176415998745), ('antioxidant_activity <= 0.00', 0.13841438599196784), ('intraspecies_interaction_between_organisms <= 0.00', 0.13185268701244196), ('translation_regulator_activity <= 0.00', -0.11780532237648693), ('metabolic_process <= 0.00', -0.1061977165491118), ('biomineralization <= 0.00', -0.0799435599523944)]",
+   "RF10_pred": 0
+  },
+  "T6 TGFA-DLG2": {
+   "LIME3": "[('metabolic_process > 0.61', 0.25910510078035337), ('biological_regulation > 0.57', 0.1525247847621298), ('0.86 < cellular_anatomical_entity <= 1.00', 0.131274215233533)]",
+   "LIME8": "[('metabolic_process > 0.61', 0.24162687802719393), ('biological_regulation > 0.57', 0.1569801598652181), ('0.86 < cellular_anatomical_entity <= 1.00', 0.11903485070522989), ('0.49 < cellular_process <= 0.84', 0.11017261562248723), ('structural_molecule_activity <= 0.00', -0.10902035244588704), ('molecular_transducer_activity <= 0.00', -0.10192536270082923), ('intraspecies_interaction_between_organisms <= 0.00', -0.09815847532508841), ('antioxidant_activity <= 0.00', 0.07689834895988452)]",
+   "RF10_pred": 1
+  },
+  "T7 PXN-ITGA4": {
+   "LIME3": "[('cellular_process > 0.84', 0.42790835265609845), ('0.86 < cellular_anatomical_entity <= 1.00', 0.13459921312486936), ('metabolic_process <= 0.00', -0.11494856721785092)]",
+   "LIME8": "[('cellular_process > 0.84', 0.419916531351905), ('antioxidant_activity <= 0.00', -0.2578784991970067), ('molecular_carrier_activity <= 0.00', -0.1886148598286835), ('rhythmic_process <= 0.00', -0.14562813930376722), ('0.86 < cellular_anatomical_entity <= 1.00', 0.13495268914457095), ('metabolic_process <= 0.00', -0.11393798238852701), ('structural_molecule_activity <= 0.00', -0.10911056516266691), ('detoxification <= 0.00', -0.07675291611851187)]",
+   "RF10_pred": 1
+  },
+  "T8 PSMC1-PSMB3": {
+   "LIME3": "[('cellular_process > 0.84', 0.413650035818032), ('metabolic_process > 0.61', 0.26065979042538256), ('biological_regulation > 0.57', 0.15293529338068806)]",
+   "LIME8": "[('cellular_process > 0.84', 0.4137462052759547), ('metabolic_process > 0.61', 0.2752107454321462), ('molecular_carrier_activity <= 0.00', 0.16730485089901334), ('biomineralization <= 0.00', -0.165234457492111), ('pigmentation <= 0.00', 0.1568784900705885), ('biological_regulation > 0.57', 0.15629422503745272), ('behavior <= 0.00', -0.12815249587462738), ('antioxidant_activity <= 0.00', 0.027487000683786032)]",
+   "RF10_pred": 1
+  }
+ }
+}

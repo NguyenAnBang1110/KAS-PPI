@@ -1,0 +1,9 @@
+{
+ "alg": "GP6x",
+ "fold": 8,
+ "seed": 0,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_beta1.npz",
+ "WAF": 0.8660744021694032,
+ "seconds": 90,
+ "model": "Max(behavior, catalytic_activity, cellular_process, immune_system_process, molecular_adaptor_activity, multicellular_organismal_process, translation_regulator_activity, -3*cellular_process + Max(0.188, molecular_function_regulator), Min(binding, molecular_function_regulator))"
+}

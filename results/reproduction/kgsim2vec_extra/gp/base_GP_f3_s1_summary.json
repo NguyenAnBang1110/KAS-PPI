@@ -1,0 +1,9 @@
+{
+ "alg": "GP",
+ "fold": 3,
+ "seed": 1,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "WAF": 0.8699609494839573,
+ "seconds": 69,
+ "model": "Max(biological_regulation**2, metabolic_process, Max(cellular_process, immune_system_process)*Max(biological_regulation**2, cellular_process, metabolic_process, Max(cellular_process, immune_system_process)**2))"
+}
