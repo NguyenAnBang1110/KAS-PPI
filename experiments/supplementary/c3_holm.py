@@ -1,4 +1,4 @@
-"""C3 (duyệt 14/10): hiệu chỉnh Holm cho các p Wilcoxon một phía theo fold của ROAR hai chiều.
+"""C3: hiệu chỉnh Holm cho các p Wilcoxon một phía theo fold của ROAR hai chiều.
 Họ kiểm định cố định trước khi tính: mọi p trong khoá "p" của roar_sym_<view>_rf.json với k <= 2
 (quy tắc xếp hạng của luận văn), tức KAS so với từng phương pháp, ba đại lượng MoRF/LeRF/gap.
 Phân tích độ nhạy: cùng họ nhưng thêm k = 3. Chạy cho view SEEK (Bảng 4.13) và, để tham chiếu, view KGsim2vec (Bảng 4.12).

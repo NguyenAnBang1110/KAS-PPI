@@ -1,13 +1,13 @@
-"""C1 (duyệt 14/10, lựa chọn "A+B+C1–C3"): WAF khi chia theo protein (cold-protein).
-Thiết kế cố định trước khi chạy (ghi ở 03_EXPERIMENT_DECISIONS.md):
+"""C1: WAF khi chia theo protein (cold-protein).
+Thiết kế cố định trước khi chạy:
 - 6,750 protein chia ngẫu nhiên thành 5 nhóm (numpy default_rng(0), permutation).
 - Với nhóm g: tập huấn luyện = cặp không chứa protein nào của g.
   * Biến thể "cả hai mới" (C3 theo Park và Marcotte 2012): tập kiểm tra = cặp có cả hai protein thuộc g.
   * Biến thể "một mới" (C2): tập kiểm tra = cặp có đúng một protein thuộc g.
 - Bộ phân loại RF100, random_state = 0, giống train_v2.py; WAF ở ngưỡng 0.5 và ROC-AUC.
-- Ba view 51 aspect từ string_check_input.npz; thêm baseline chỉ dùng bậc protein (đặc trưng như degree_baseline.py,
+- Ba view 51 aspect từ string_check_input.npz; thêm baseline chỉ dùng bậc protein (bậc và bậc dương của hai protein,
   đếm trên tập huấn luyện của nhóm; hàng huấn luyện trừ đóng góp của chính cặp).
-- Không đổi siêu tham số, không chọn lại gì theo kết quả. Không ghi vào thư mục gốc.
+- Không đổi siêu tham số, không chọn lại gì theo kết quả.
 Dùng: python3 c1_cold_protein.py string_check_input.npz OUT.json"""
 import sys, json, time, platform
 from collections import Counter
