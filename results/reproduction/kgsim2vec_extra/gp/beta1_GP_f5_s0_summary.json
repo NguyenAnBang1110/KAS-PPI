@@ -1,0 +1,9 @@
+{
+ "alg": "GP",
+ "fold": 5,
+ "seed": 0,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_beta1.npz",
+ "WAF": 0.8769708561809605,
+ "seconds": 159,
+ "model": "Max(molecular_carrier_activity, multicellular_organismal_process, structural_molecule_activity, translation_regulator_activity, Max(biological_regulation, cellular_anatomical_entity, metabolic_process)*Max(catalytic_activity, metabolic_process, molecular_function_regulator, multicellular_organismal_process, reproduction, structural_molecule_activity, translation_regulator_activity, cellular_process*Max(biological_regulation, cellular_anatomical_entity)), Max(cellular_process, immune_system_process)**2)"
+}

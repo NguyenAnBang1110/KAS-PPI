@@ -1,0 +1,11 @@
+{
+ "nodes_rebuilt": 80172,
+ "nodes_authors": 80172,
+ "named_edges_rebuilt": 365422,
+ "named_edges_authors": 365422,
+ "named_edges_only_rebuilt": 0,
+ "named_edges_only_authors": 0,
+ "bnode_edges_rebuilt": 16157,
+ "bnode_edges_authors": 16157,
+ "seconds": 129
+}

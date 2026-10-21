@@ -1,0 +1,98 @@
+
+kg|rf  n=2200  base acc 0.908
+  ks   D         k=1  acc 0.820  drop 0.088  mask-only 0.704
+  ks   D         k=2  acc 0.780  drop 0.128  mask-only 0.726
+  ks   D         k=3  acc 0.786  drop 0.122  mask-only 0.774
+  ks   LOO       k=1  acc 0.818  drop 0.090  p(D<LOO)=0.79  mask-only 0.608
+  ks   LOO       k=2  acc 0.773  drop 0.136  p(D<LOO)=0.95  mask-only 0.603
+  ks   LOO       k=3  acc 0.699  drop 0.209  p(D<LOO)=1  mask-only 0.660
+  ks   FS0       k=1  acc 0.821  drop 0.087  p(D<FS0)=0.44  mask-only 0.679
+  ks   FS0       k=2  acc 0.777  drop 0.131  p(D<FS0)=0.76  mask-only 0.705
+  ks   FS0       k=3  acc 0.719  drop 0.189  p(D<FS0)=1  mask-only 0.684
+  ks   TreeSHAP  k=1  acc 0.818  drop 0.090  p(D<TreeSHAP)=0.85  mask-only 0.575
+  ks   TreeSHAP  k=2  acc 0.781  drop 0.128  p(D<TreeSHAP)=0.49  mask-only 0.705
+  ks   TreeSHAP  k=3  acc 0.703  drop 0.205  p(D<TreeSHAP)=1  mask-only 0.655
+  ks   LIME      k=1  acc 0.862  drop 0.046  p(D<LIME)=3.1e-05  mask-only 0.718
+  ks   LIME      k=2  acc 0.822  drop 0.086  p(D<LIME)=3.1e-05  mask-only 0.724
+  ks   LIME      k=3  acc 0.779  drop 0.130  p(D<LIME)=0.92  mask-only 0.731
+  ks   random    k=1  acc 0.856  drop 0.053  p(D<random)=3.1e-05  mask-only 0.579
+  ks   random    k=2  acc 0.818  drop 0.091  p(D<random)=3.1e-05  mask-only 0.600
+  ks   random    k=3  acc 0.757  drop 0.151  p(D<random)=1  mask-only 0.606
+  zero D         k=1  acc 0.877  drop 0.032  mask-only 0.704
+  zero D         k=2  acc 0.814  drop 0.094  mask-only 0.726
+  zero D         k=3  acc 0.798  drop 0.110  mask-only 0.774
+  zero LOO       k=1  acc 0.882  drop 0.027  p(D<LOO)=0.054  mask-only 0.608
+  zero LOO       k=2  acc 0.810  drop 0.098  p(D<LOO)=0.86  mask-only 0.603
+  zero LOO       k=3  acc 0.749  drop 0.160  p(D<LOO)=1  mask-only 0.660
+  zero FS0       k=1  acc 0.881  drop 0.027  p(D<FS0)=0.06  mask-only 0.679
+  zero FS0       k=2  acc 0.812  drop 0.096  p(D<FS0)=0.66  mask-only 0.705
+  zero FS0       k=3  acc 0.768  drop 0.140  p(D<FS0)=1  mask-only 0.684
+  zero TreeSHAP  k=1  acc 0.887  drop 0.021  p(D<TreeSHAP)=0.0034  mask-only 0.575
+  zero TreeSHAP  k=2  acc 0.805  drop 0.104  p(D<TreeSHAP)=0.96  mask-only 0.705
+  zero TreeSHAP  k=3  acc 0.732  drop 0.176  p(D<TreeSHAP)=1  mask-only 0.655
+  zero LIME      k=1  acc 0.908  drop 0.001  p(D<LIME)=3.1e-05  mask-only 0.718
+  zero LIME      k=2  acc 0.887  drop 0.022  p(D<LIME)=3.1e-05  mask-only 0.724
+  zero LIME      k=3  acc 0.859  drop 0.050  p(D<LIME)=3.1e-05  mask-only 0.731
+  zero random    k=1  acc 0.895  drop 0.013  p(D<random)=0.00031  mask-only 0.579
+  zero random    k=2  acc 0.872  drop 0.036  p(D<random)=3.1e-05  mask-only 0.600
+  zero random    k=3  acc 0.834  drop 0.074  p(D<random)=6.1e-05  mask-only 0.606
+
+kg|xgb  n=2200  base acc 0.895
+  ks   D         k=1  acc 0.822  drop 0.073  mask-only 0.720
+  ks   D         k=2  acc 0.785  drop 0.111  mask-only 0.774
+  ks   D         k=3  acc 0.785  drop 0.111  mask-only 0.805
+  ks   LOO       k=1  acc 0.814  drop 0.081  p(D<LOO)=0.93  mask-only 0.611
+  ks   LOO       k=2  acc 0.773  drop 0.122  p(D<LOO)=0.98  mask-only 0.686
+  ks   LOO       k=3  acc 0.738  drop 0.157  p(D<LOO)=1  mask-only 0.687
+  ks   FS0       k=1  acc 0.818  drop 0.078  p(D<FS0)=0.92  mask-only 0.727
+  ks   FS0       k=2  acc 0.791  drop 0.104  p(D<FS0)=0.018  mask-only 0.810
+  ks   FS0       k=3  acc 0.753  drop 0.143  p(D<FS0)=1  mask-only 0.771
+  ks   TreeSHAP  k=1  acc 0.817  drop 0.079  p(D<TreeSHAP)=0.78  mask-only 0.698
+  ks   TreeSHAP  k=2  acc 0.762  drop 0.133  p(D<TreeSHAP)=1  mask-only 0.702
+  ks   TreeSHAP  k=3  acc 0.688  drop 0.207  p(D<TreeSHAP)=1  mask-only 0.669
+  ks   LIME      k=1  acc 0.841  drop 0.055  p(D<LIME)=0.00015  mask-only 0.679
+  ks   LIME      k=2  acc 0.797  drop 0.099  p(D<LIME)=0.011  mask-only 0.728
+  ks   LIME      k=3  acc 0.763  drop 0.132  p(D<LIME)=1  mask-only 0.727
+  ks   random    k=1  acc 0.847  drop 0.048  p(D<random)=0.0012  mask-only 0.579
+  ks   random    k=2  acc 0.812  drop 0.083  p(D<random)=3.1e-05  mask-only 0.600
+  ks   random    k=3  acc 0.753  drop 0.142  p(D<random)=1  mask-only 0.606
+  zero D         k=1  acc 0.873  drop 0.023  mask-only 0.720
+  zero D         k=2  acc 0.827  drop 0.068  mask-only 0.774
+  zero D         k=3  acc 0.793  drop 0.102  mask-only 0.805
+  zero LOO       k=1  acc 0.877  drop 0.018  p(D<LOO)=0.062  mask-only 0.611
+  zero LOO       k=2  acc 0.805  drop 0.090  p(D<LOO)=1  mask-only 0.686
+  zero LOO       k=3  acc 0.764  drop 0.132  p(D<LOO)=1  mask-only 0.687
+  zero FS0       k=1  acc 0.875  drop 0.020  p(D<FS0)=0.28  mask-only 0.727
+  zero FS0       k=2  acc 0.822  drop 0.074  p(D<FS0)=0.87  mask-only 0.810
+  zero FS0       k=3  acc 0.781  drop 0.115  p(D<FS0)=0.99  mask-only 0.771
+  zero TreeSHAP  k=1  acc 0.871  drop 0.025  p(D<TreeSHAP)=0.83  mask-only 0.698
+  zero TreeSHAP  k=2  acc 0.803  drop 0.093  p(D<TreeSHAP)=1  mask-only 0.702
+  zero TreeSHAP  k=3  acc 0.733  drop 0.163  p(D<TreeSHAP)=1  mask-only 0.669
+  zero LIME      k=1  acc 0.879  drop 0.017  p(D<LIME)=0.032  mask-only 0.679
+  zero LIME      k=2  acc 0.855  drop 0.040  p(D<LIME)=3.1e-05  mask-only 0.728
+  zero LIME      k=3  acc 0.833  drop 0.062  p(D<LIME)=6.1e-05  mask-only 0.727
+  zero random    k=1  acc 0.883  drop 0.012  p(D<random)=0.0072  mask-only 0.579
+  zero random    k=2  acc 0.864  drop 0.032  p(D<random)=3.1e-05  mask-only 0.600
+  zero random    k=3  acc 0.831  drop 0.064  p(D<random)=3.1e-05  mask-only 0.606
+
+seek|rf  n=2200  base acc 0.888
+  ks   D         k=1  acc 0.822  drop 0.066  mask-only 0.659
+  ks   D         k=2  acc 0.760  drop 0.128  mask-only 0.662
+  ks   D         k=3  acc 0.755  drop 0.133  mask-only 0.703
+  ks   LOO       k=1  acc 0.820  drop 0.068  p(D<LOO)=0.66  mask-only 0.668
+  ks   LOO       k=2  acc 0.768  drop 0.120  p(D<LOO)=0.06  mask-only 0.639
+  ks   LOO       k=3  acc 0.746  drop 0.142  p(D<LOO)=0.98  mask-only 0.684
+  ks   random    k=1  acc 0.847  drop 0.041  p(D<random)=0.00049  mask-only 0.587
+  ks   random    k=2  acc 0.814  drop 0.074  p(D<random)=3.1e-05  mask-only 0.613
+  ks   random    k=3  acc 0.743  drop 0.145  p(D<random)=0.98  mask-only 0.616
+
+seek|xgb  n=2200  base acc 0.897
+  ks   D         k=1  acc 0.813  drop 0.083  mask-only 0.592
+  ks   D         k=2  acc 0.750  drop 0.147  mask-only 0.628
+  ks   D         k=3  acc 0.706  drop 0.191  mask-only 0.694
+  ks   LOO       k=1  acc 0.817  drop 0.080  p(D<LOO)=0.18  mask-only 0.578
+  ks   LOO       k=2  acc 0.768  drop 0.129  p(D<LOO)=0.0021  mask-only 0.617
+  ks   LOO       k=3  acc 0.707  drop 0.189  p(D<LOO)=0.32  mask-only 0.632
+  ks   random    k=1  acc 0.850  drop 0.046  p(D<random)=6.1e-05  mask-only 0.587
+  ks   random    k=2  acc 0.812  drop 0.085  p(D<random)=3.1e-05  mask-only 0.613
+  ks   random    k=3  acc 0.745  drop 0.152  p(D<random)=3.1e-05  mask-only 0.616

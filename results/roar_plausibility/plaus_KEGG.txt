@@ -1,0 +1,35 @@
+KEGG gene sets kept 185 universe 18722
+kg|rf TP 1011 shared 405 informative 317
+   D                hit@1 0.896  p@3 0.767  ndcg@3 0.746 
+   LOO              hit@1 0.896  p@3 0.756  ndcg@3 0.709 p(hit1)=1 p(ndcg)=0.00036
+   FS0              hit@1 0.893  p@3 0.783  ndcg@3 0.731 p(hit1)=0.83 p(ndcg)=0.056
+   TreeSHAP         hit@1 0.902  p@3 0.745  ndcg@3 0.750 p(hit1)=0.69 p(ndcg)=0.61
+   LIME             hit@1 0.773  p@3 0.716  ndcg@3 0.644 p(hit1)=8.9e-07 p(ndcg)=2.4e-12
+   Sim              hit@1 0.662  p@3 0.708  ndcg@3 0.634 p(hit1)=2.3e-14 p(ndcg)=2.7e-15
+   random           hit@1 0.652  p@3 0.652  ndcg@3 0.591 p(hit1)=1.3e-28 p(ndcg)=1e-30
+kg|xgb TP 1010 shared 404 informative 315
+   D                hit@1 0.905  p@3 0.819  ndcg@3 0.789 
+   LOO              hit@1 0.902  p@3 0.757  ndcg@3 0.751 p(hit1)=0.85 p(ndcg)=0.0011
+   FS0              hit@1 0.911  p@3 0.791  ndcg@3 0.788 p(hit1)=0.73 p(ndcg)=0.81
+   TreeSHAP         hit@1 0.867  p@3 0.762  ndcg@3 0.758 p(hit1)=0.07 p(ndcg)=0.00046
+   LIME             hit@1 0.784  p@3 0.736  ndcg@3 0.678 p(hit1)=5.6e-06 p(ndcg)=6.7e-15
+   Sim              hit@1 0.660  p@3 0.708  ndcg@3 0.634 p(hit1)=1.8e-14 p(ndcg)=3e-25
+   random           hit@1 0.653  p@3 0.653  ndcg@3 0.591 p(hit1)=1.5e-30 p(ndcg)=4.9e-41
+seek|rf TP 988 shared 394 informative 310
+   D                hit@1 0.713  p@3 0.672  ndcg@3 0.593 
+   LOO              hit@1 0.748  p@3 0.692  ndcg@3 0.627 p(hit1)=0.093 p(ndcg)=0.0041
+   random           hit@1 0.653  p@3 0.652  ndcg@3 0.591 p(hit1)=0.033 p(ndcg)=0.85
+seek|xgb TP 1001 shared 393 informative 310
+   D                hit@1 0.613  p@3 0.685  ndcg@3 0.599 
+   LOO              hit@1 0.784  p@3 0.720  ndcg@3 0.691 p(hit1)=3.9e-08 p(ndcg)=7.5e-11
+   random           hit@1 0.650  p@3 0.650  ndcg@3 0.589 p(hit1)=0.041 p(ndcg)=0.4
+hyb|rf TP 1011 shared 405 informative 318
+   D                hit@1 0.843  p@3 0.740  ndcg@3 0.701 
+   LOO              hit@1 0.871  p@3 0.740  ndcg@3 0.693 p(hit1)=0.072 p(ndcg)=0.97
+   TreeSHAP_KGpart  hit@1 0.890  p@3 0.711  ndcg@3 0.717 p(hit1)=0.011 p(ndcg)=0.11
+   random           hit@1 0.652  p@3 0.651  ndcg@3 0.591 p(hit1)=9.7e-18 p(ndcg)=2.3e-21
+hyb|xgb TP 1019 shared 409 informative 321
+   D                hit@1 0.776  p@3 0.721  ndcg@3 0.669 
+   LOO              hit@1 0.894  p@3 0.745  ndcg@3 0.733 p(hit1)=3.8e-07 p(ndcg)=7.2e-08
+   TreeSHAP_KGpart  hit@1 0.907  p@3 0.750  ndcg@3 0.751 p(hit1)=5.2e-07 p(ndcg)=5e-12
+   random           hit@1 0.652  p@3 0.651  ndcg@3 0.592 p(hit1)=4e-07 p(ndcg)=1.3e-12

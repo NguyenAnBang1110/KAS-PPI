@@ -1,0 +1,13 @@
+KEGG gene sets kept 185 universe 18722
+seekx|rf TP 988 shared 394 informative 310
+   D                hit@1 0.713  p@3 0.672  ndcg@3 0.593 
+   LOO              hit@1 0.748  p@3 0.692  ndcg@3 0.627 p(hit1)=0.093 p(ndcg)=0.0041
+   SEEKN            hit@1 0.645  p@3 0.677  ndcg@3 0.598 p(hit1)=0.021 p(ndcg)=0.77
+   SEEKS            hit@1 0.706  p@3 0.735  ndcg@3 0.652 p(hit1)=0.77 p(ndcg)=5.8e-07
+   random           hit@1 0.653  p@3 0.652  ndcg@3 0.591 p(hit1)=0.033 p(ndcg)=0.84
+seekx|xgb TP 1001 shared 393 informative 310
+   D                hit@1 0.613  p@3 0.685  ndcg@3 0.600 
+   LOO              hit@1 0.787  p@3 0.719  ndcg@3 0.690 p(hit1)=2.6e-08 p(ndcg)=1.1e-10
+   SEEKN            hit@1 0.713  p@3 0.703  ndcg@3 0.657 p(hit1)=0.0016 p(ndcg)=3.7e-05
+   SEEKS            hit@1 0.697  p@3 0.722  ndcg@3 0.682 p(hit1)=0.008 p(ndcg)=4.9e-12
+   random           hit@1 0.652  p@3 0.651  ndcg@3 0.590 p(hit1)=0.035 p(ndcg)=0.48

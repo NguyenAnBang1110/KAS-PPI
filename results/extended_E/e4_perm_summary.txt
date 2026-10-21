@@ -1,0 +1,8 @@
+kg rf M=25 rel_mae 0.151 rho 0.870 top1 0.696 jac3 0.797 sum_err 0.000
+kg rf M=50 rel_mae 0.098 rho 0.930 top1 0.791 jac3 0.860 sum_err 0.000
+kg rf M=100 rel_mae 0.064 rho 0.955 top1 0.843 jac3 0.892 sum_err 0.000
+kg rf M=200 rel_mae 0.048 rho 0.965 top1 0.881 jac3 0.919 sum_err 0.000
+seek rf M=25 rel_mae 0.120 rho 0.903 top1 0.804 jac3 0.827 sum_err 0.000
+seek rf M=50 rel_mae 0.082 rho 0.939 top1 0.856 jac3 0.882 sum_err 0.000
+seek rf M=100 rel_mae 0.055 rho 0.965 top1 0.906 jac3 0.918 sum_err 0.000
+seek rf M=200 rel_mae 0.041 rho 0.971 top1 0.922 jac3 0.932 sum_err 0.000

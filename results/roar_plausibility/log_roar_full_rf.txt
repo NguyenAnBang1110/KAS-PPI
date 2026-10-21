@@ -1,0 +1,45 @@
+0 0 s
+5000 71 s
+10000 147 s
+15000 223 s
+20000 302 s
+25000 380 s
+30000 452 s
+35000 525 s
+40000 598 s
+45000 669 s
+base WAF 0.9246
+D 1 WAF median 0.8446 drop 0.0800 mask-only 0.682 729 s
+D 2 WAF median 0.8117 drop 0.1129 mask-only 0.712 748 s
+D 3 WAF median 0.7928 drop 0.1318 mask-only 0.787 765 s
+LOO 1 WAF median 0.8410 drop 0.0836 mask-only 0.593 785 s
+LOO 2 WAF median 0.7950 drop 0.1296 mask-only 0.618 804 s
+LOO 3 WAF median 0.7245 drop 0.2001 mask-only 0.662 824 s
+FS0 1 WAF median 0.8400 drop 0.0845 mask-only 0.658 843 s
+FS0 2 WAF median 0.7955 drop 0.1290 mask-only 0.685 861 s
+FS0 3 WAF median 0.7406 drop 0.1840 mask-only 0.693 880 s
+TreeSHAP 1 WAF median 0.8345 drop 0.0901 mask-only 0.521 899 s
+TreeSHAP 2 WAF median 0.7922 drop 0.1324 mask-only 0.699 917 s
+TreeSHAP 3 WAF median 0.7296 drop 0.1950 mask-only 0.681 935 s
+LIME 1 WAF median 0.8645 drop 0.0601 mask-only 0.704 954 s
+LIME 2 WAF median 0.8410 drop 0.0836 mask-only 0.726 971 s
+LIME 3 WAF median 0.8015 drop 0.1230 mask-only 0.736 990 s
+random 1 WAF median 0.8748 drop 0.0497 mask-only 0.557 1010 s
+random 2 WAF median 0.8290 drop 0.0956 mask-only 0.618 1030 s
+random 3 WAF median 0.7671 drop 0.1575 mask-only 0.641 1051 s
+k=1 p(D<LOO) = 0.958
+k=1 p(D<FS0) = 1
+k=1 p(D<TreeSHAP) = 1
+k=1 p(D<LIME) = 0.000977
+k=1 p(D<random) = 0.000977
+k=2 p(D<LOO) = 1
+k=2 p(D<FS0) = 1
+k=2 p(D<TreeSHAP) = 1
+k=2 p(D<LIME) = 0.000977
+k=2 p(D<random) = 0.000977
+k=3 p(D<LOO) = 1
+k=3 p(D<FS0) = 1
+k=3 p(D<TreeSHAP) = 1
+k=3 p(D<LIME) = 0.0322
+k=3 p(D<random) = 1
+FINISHED

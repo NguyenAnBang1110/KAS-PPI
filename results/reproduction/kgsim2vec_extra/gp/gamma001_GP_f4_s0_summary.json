@@ -1,0 +1,9 @@
+{
+ "alg": "GP",
+ "fold": 4,
+ "seed": 0,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_gamma001.npz",
+ "WAF": 0.8918976611645182,
+ "seconds": 137,
+ "model": "Min(1, (binding + cellular_process + Max(biological_regulation, cellular_anatomical_entity, metabolic_process, multicellular_organismal_process))*Max(molecular_transducer_activity, Max(cellular_anatomical_entity, cellular_process, molecular_transducer_activity, multicellular_organismal_process)*Max(catalytic_activity, cellular_process, immune_system_process, metabolic_process, molecular_transducer_activity, multicellular_organismal_process, Max(molecular_transducer_activity, Max(biological_regulation, metabolic_process)*Max(catalytic_activity, immune_system_process, metabolic_process, molecular_transducer_activity, Max(cellular_anatomical_entity, cellular_process, molecular_transducer_activity, multicellular_organismal_process)*Max(biological_regulation, cellular_process, metabolic_process, molecular_adaptor_activity, molecular_transducer_activity, multicellular_organismal_process)))*Max(cellular_anatomical_entity, cellular_process, molecular_transducer_activity, multicellular_organismal_process)))*Max(biological_regulation, catalytic_activity, metabolic_process, molecular_transducer_activity, Max(catalytic_activity, cellular_process, multicellular_organismal_process)*Max(cellular_anatomical_entity, cellular_process, molecular_transducer_activity, multicellular_organismal_process)))"
+}

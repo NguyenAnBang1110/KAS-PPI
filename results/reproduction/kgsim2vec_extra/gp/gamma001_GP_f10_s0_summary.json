@@ -1,0 +1,9 @@
+{
+ "alg": "GP",
+ "fold": 10,
+ "seed": 0,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_gamma001.npz",
+ "WAF": 0.8846522339898152,
+ "seconds": 124,
+ "model": "Max(immune_system_process, molecular_function_regulator, molecular_transducer_activity, multicellular_organismal_process, Min(1, cellular_process*(Max(biological_regulation, cellular_anatomical_entity, cellular_process, catalytic_activity + Max(biological_regulation, cellular_process, signaling + structural_molecule_activity)) + Max(biological_regulation, cellular_anatomical_entity, cellular_process, signaling + structural_molecule_activity))*Max(molecular_transducer_activity, structural_molecule_activity, Max(biological_regulation, catalytic_activity, cellular_process)*Max(catalytic_activity, cellular_anatomical_entity, cellular_process + rhythmic_process))))"
+}

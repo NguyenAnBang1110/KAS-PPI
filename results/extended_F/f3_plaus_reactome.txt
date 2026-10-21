@@ -1,0 +1,19 @@
+REACTOME gene sets kept 1253 universe 18722
+kglore|rf TP 276 shared 227 informative 178
+   D                hit@1 0.719  p@3 0.680  ndcg@3 0.709 
+   LOO              hit@1 0.747  p@3 0.635  ndcg@3 0.654 p(hit1)=0.28 p(ndcg)=2.1e-05
+   FS0              hit@1 0.753  p@3 0.669  ndcg@3 0.677 p(hit1)=0.16 p(ndcg)=0.02
+   TreeSHAP         hit@1 0.764  p@3 0.648  ndcg@3 0.706 p(hit1)=0.088 p(ndcg)=0.87
+   LIME             hit@1 0.601  p@3 0.584  ndcg@3 0.551 p(hit1)=0.0017 p(ndcg)=1.6e-13
+   LORE             hit@1 0.674  p@3 0.612  ndcg@3 0.638 p(hit1)=0.22 p(ndcg)=0.00024
+   Sim              hit@1 0.579  p@3 0.609  ndcg@3 0.611 p(hit1)=0.0039 p(ndcg)=1.7e-08
+   random           hit@1 0.562  p@3 0.561  ndcg@3 0.565 p(hit1)=2.4e-05 p(ndcg)=1.9e-15
+kglore|xgb TP 278 shared 230 informative 181
+   D                hit@1 0.685  p@3 0.670  ndcg@3 0.722 
+   LOO              hit@1 0.713  p@3 0.624  ndcg@3 0.693 p(hit1)=0.32 p(ndcg)=0.088
+   FS0              hit@1 0.724  p@3 0.657  ndcg@3 0.731 p(hit1)=0.22 p(ndcg)=0.37
+   TreeSHAP         hit@1 0.702  p@3 0.652  ndcg@3 0.709 p(hit1)=0.58 p(ndcg)=0.48
+   LIME             hit@1 0.580  p@3 0.591  ndcg@3 0.585 p(hit1)=0.012 p(ndcg)=1.7e-08
+   LORE             hit@1 0.641  p@3 0.578  ndcg@3 0.605 p(hit1)=0.26 p(ndcg)=2.1e-07
+   Sim              hit@1 0.569  p@3 0.602  ndcg@3 0.609 p(hit1)=0.021 p(ndcg)=1.1e-08
+   random           hit@1 0.555  p@3 0.554  ndcg@3 0.563 p(hit1)=0.00023 p(ndcg)=3.9e-16

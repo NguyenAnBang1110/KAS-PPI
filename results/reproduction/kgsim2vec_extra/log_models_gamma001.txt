@@ -1,0 +1,6 @@
+feats_gamma001.npz DT [0.8993, 0.8983, 0.8974] IQR 0.0058
+feats_gamma001.npz DT6 [0.906, 0.906, 0.906] IQR 0.0022
+feats_gamma001.npz RF100 [0.9237, 0.9232, 0.9221] IQR 0.0043
+feats_gamma001.npz RF10_authors [0.9198, 0.919, 0.9188] IQR 0.0071
+feats_gamma001.npz XGB_hist [0.9248, 0.9248, 0.9248] IQR 0.003
+feats_gamma001.npz XGB_exact_authors [0.9253, 0.9253, 0.9253] IQR 0.0032

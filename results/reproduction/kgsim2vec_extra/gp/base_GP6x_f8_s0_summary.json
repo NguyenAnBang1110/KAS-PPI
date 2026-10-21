@@ -1,0 +1,9 @@
+{
+ "alg": "GP6x",
+ "fold": 8,
+ "seed": 0,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "WAF": 0.8656622541287435,
+ "seconds": 127,
+ "model": "Max(cellular_process, immune_system_process, molecular_transducer_activity, multicellular_organismal_process, signaling, structural_molecule_activity, 0.116 - cellular_process, behavior + molecular_adaptor_activity, behavior + protein_folding_chaperone, Min(molecular_function_regulator, Max(biological_regulation, intraspecies_interaction_between_organisms)))"
+}

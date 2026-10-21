@@ -1,0 +1,9 @@
+{
+ "alg": "GP6x",
+ "fold": 9,
+ "seed": 1,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "WAF": 0.8608351410817833,
+ "seconds": 79,
+ "model": "Max(0.208, catalytic_activity, cellular_process, immune_system_process, intraspecies_interaction_between_organisms, molecular_function_regulator, rhythmic_process)"
+}

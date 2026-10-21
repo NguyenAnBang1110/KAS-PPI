@@ -1,0 +1,6 @@
+feats_beta1.npz DT [0.8989, 0.8983, 0.8979] IQR 0.004
+feats_beta1.npz DT6 [0.906, 0.906, 0.906] IQR 0.0022
+feats_beta1.npz RF100 [0.9226, 0.9242, 0.9229] IQR 0.0045
+feats_beta1.npz RF10_authors [0.9194, 0.9183, 0.9207] IQR 0.0029
+feats_beta1.npz XGB_hist [0.9243, 0.9243, 0.9243] IQR 0.0037
+feats_beta1.npz XGB_exact_authors [0.9244, 0.9244, 0.9244] IQR 0.0015

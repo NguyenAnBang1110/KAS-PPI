@@ -1,0 +1,9 @@
+{
+ "alg": "GP",
+ "fold": 1,
+ "seed": 0,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_beta1.npz",
+ "WAF": 0.866407504503623,
+ "seconds": 74,
+ "model": "Max(behavior, catalytic_activity, rhythmic_process, structural_molecule_activity, biomineralization + Max(cellular_process, immune_system_process, signaling), multicellular_organismal_process - pigmentation)"
+}

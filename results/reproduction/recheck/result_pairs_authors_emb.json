@@ -1,0 +1,9 @@
+{
+ "mode": "fast",
+ "pairs": 47142,
+ "pairs_matched_authors": 47142,
+ "max_abs_diff_vs_authors": 0.0,
+ "frac_pairs_identical_vs_authors": 1.0,
+ "max_abs_diff_fast_vs_repo_function_first500": 0.0,
+ "seconds": 143
+}

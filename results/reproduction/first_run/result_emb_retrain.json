@@ -1,0 +1,5 @@
+{
+ "emb_file": "./PPI/Repro/Emb_classes_retrained.txt",
+ "n_classes": 50422,
+ "seconds": 1491
+}

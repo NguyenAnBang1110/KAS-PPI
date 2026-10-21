@@ -1,0 +1,180 @@
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 2 0 WAF 0.868 56 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 4 0 WAF 0.8613 90 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 5 0 WAF 0.8621 111 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 1 0 WAF 0.8837 178 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 6 0 WAF 0.868 163 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 3 0 WAF 0.8797 297 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 7 0 WAF 0.8719 158 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 8 0 WAF 0.865 156 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 9 0 WAF 0.8632 159 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 10 0 WAF 0.8647 166 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 1 0 WAF 0.8683 229 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 2 0 WAF 0.8672 231 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 4 0 WAF 0.8608 173 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 3 0 WAF 0.8729 222 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 5 0 WAF 0.8615 118 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 6 0 WAF 0.868 122 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 7 0 WAF 0.8719 128 s
+GP6x 8 0 WAF 0.8657 127 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 9 0 WAF 0.8636 130 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 10 0 WAF 0.8655 122 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 2 1 WAF 0.8589 59 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 1 1 WAF 0.8664 63 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 4 1 WAF 0.8581 54 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 3 1 WAF 0.87 69 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 5 1 WAF 0.8602 62 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 6 1 WAF 0.8712 68 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 9 1 WAF 0.8602 50 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 8 1 WAF 0.8652 68 s
+GP 7 1 WAF 0.871 78 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 10 1 WAF 0.8625 55 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 1 1 WAF 0.8676 76 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 2 1 WAF 0.8685 72 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 3 1 WAF 0.8725 78 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 4 1 WAF 0.8613 77 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 5 1 WAF 0.86 75 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 6 1 WAF 0.8676 80 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 7 1 WAF 0.8708 79 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 8 1 WAF 0.8642 78 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 9 1 WAF 0.8608 79 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 1 2 WAF 0.8676 68 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 10 1 WAF 0.864 75 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 2 2 WAF 0.8648 69 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 4 2 WAF 0.8627 56 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 3 2 WAF 0.8714 63 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 6 2 WAF 0.8668 55 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 5 2 WAF 0.8621 69 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 8 2 WAF 0.8638 54 s
+GP 7 2 WAF 0.8706 56 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 9 2 WAF 0.8634 58 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP 10 2 WAF 0.8653 56 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 2 2 WAF 0.8655 109 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 1 2 WAF 0.8677 111 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 3 2 WAF 0.8712 123 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 4 2 WAF 0.8604 119 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 5 2 WAF 0.8615 96 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 6 2 WAF 0.8661 112 s
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/k_gp.py:9: FutureWarning: In the future `np.object` will be defined as the corresponding NumPy scalar.
+  if not hasattr(np, _a): setattr(np, _a, _t)
+GP6x 7 2 WAF 0.8693 103 s
+GP6x 8 2 WAF 0.8639 101 s
+GP6x 9 2 WAF 0.8627 68 s
+GP6x 10 2 WAF 0.8651 71 s

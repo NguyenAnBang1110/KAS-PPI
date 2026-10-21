@@ -1,0 +1,1422 @@
+{
+ "0": {
+  "n_frequent": 22,
+  "n_paper": 18,
+  "n_paper_exact_found": 18,
+  "n_paper_exact_frequent": 18,
+  "n_paper_near_frequent": 18,
+  "n_ours_frequent_in_paper": 18,
+  "comparison": [
+   {
+    "n": 1,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 17216,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 17216,
+    "ours_models_near": 10
+   },
+   {
+    "n": 2,
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 4837,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 4837,
+    "ours_models_near": 5
+   },
+   {
+    "n": 3,
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 2359,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 2359,
+    "ours_models_near": 5
+   },
+   {
+    "n": 4,
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 2082,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 2082,
+    "ours_models_near": 6
+   },
+   {
+    "n": 5,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 10,
+    "paper_pairs": 1403,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 1403,
+    "ours_models_near": 10
+   },
+   {
+    "n": 6,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "paper_models": 10,
+    "paper_pairs": 841,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 841,
+    "ours_models_near": 10
+   },
+   {
+    "n": 7,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 574,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 574,
+    "ours_models_near": 10
+   },
+   {
+    "n": 8,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 515,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 515,
+    "ours_models_near": 10
+   },
+   {
+    "n": 9,
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "paper_models": 8,
+    "paper_pairs": 472,
+    "ours_models_exact": 8,
+    "ours_pairs_exact": 472,
+    "ours_models_near": 8
+   },
+   {
+    "n": 10,
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "paper_models": 6,
+    "paper_pairs": 350,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 350,
+    "ours_models_near": 6
+   },
+   {
+    "n": 11,
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "paper_models": 6,
+    "paper_pairs": 268,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 268,
+    "ours_models_near": 6
+   },
+   {
+    "n": 12,
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "paper_models": 6,
+    "paper_pairs": 248,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 248,
+    "ours_models_near": 6
+   },
+   {
+    "n": 13,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 217,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 217,
+    "ours_models_near": 10
+   },
+   {
+    "n": 14,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "paper_models": 7,
+    "paper_pairs": 210,
+    "ours_models_exact": 7,
+    "ours_pairs_exact": 210,
+    "ours_models_near": 7
+   },
+   {
+    "n": 15,
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 6,
+    "paper_pairs": 157,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 157,
+    "ours_models_near": 6
+   },
+   {
+    "n": 16,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 101,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 101,
+    "ours_models_near": 6
+   },
+   {
+    "n": 17,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "paper_models": 7,
+    "paper_pairs": 93,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 79,
+    "ours_models_near": 6
+   },
+   {
+    "n": 18,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "paper_models": 5,
+    "paper_pairs": 86,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 86,
+    "ours_models_near": 5
+   }
+  ],
+  "ours": [
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 17216
+   },
+   {
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "models": 5,
+    "pairs": 4837
+   },
+   {
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "models": 5,
+    "pairs": 2359
+   },
+   {
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 2082
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "models": 10,
+    "pairs": 1403
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "models": 10,
+    "pairs": 841
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 574
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 515
+   },
+   {
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "models": 8,
+    "pairs": 472
+   },
+   {
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "models": 6,
+    "pairs": 350
+   },
+   {
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "models": 6,
+    "pairs": 268
+   },
+   {
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "models": 6,
+    "pairs": 248
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 217
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "models": 7,
+    "pairs": 210
+   },
+   {
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "models": 6,
+    "pairs": 157
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 101
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "models": 5,
+    "pairs": 86
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "models": 6,
+    "pairs": 79
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & cellular_process <= 0.0  => +",
+    "models": 5,
+    "pairs": 9
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & 0.1 < cellular_process <= 0.6  => -",
+    "models": 6,
+    "pairs": 0
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization > 0.1  => +",
+    "models": 5,
+    "pairs": 0
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization <= 0.1  => -",
+    "models": 5,
+    "pairs": 0
+   }
+  ]
+ },
+ "1": {
+  "n_frequent": 22,
+  "n_paper": 18,
+  "n_paper_exact_found": 18,
+  "n_paper_exact_frequent": 18,
+  "n_paper_near_frequent": 18,
+  "n_ours_frequent_in_paper": 18,
+  "comparison": [
+   {
+    "n": 1,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 17216,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 17216,
+    "ours_models_near": 10
+   },
+   {
+    "n": 2,
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 4837,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 4837,
+    "ours_models_near": 5
+   },
+   {
+    "n": 3,
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 2359,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 2359,
+    "ours_models_near": 5
+   },
+   {
+    "n": 4,
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 2082,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 2082,
+    "ours_models_near": 6
+   },
+   {
+    "n": 5,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 10,
+    "paper_pairs": 1403,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 1403,
+    "ours_models_near": 10
+   },
+   {
+    "n": 6,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "paper_models": 10,
+    "paper_pairs": 841,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 841,
+    "ours_models_near": 10
+   },
+   {
+    "n": 7,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 574,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 574,
+    "ours_models_near": 10
+   },
+   {
+    "n": 8,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 515,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 515,
+    "ours_models_near": 10
+   },
+   {
+    "n": 9,
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "paper_models": 8,
+    "paper_pairs": 472,
+    "ours_models_exact": 8,
+    "ours_pairs_exact": 472,
+    "ours_models_near": 8
+   },
+   {
+    "n": 10,
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "paper_models": 6,
+    "paper_pairs": 350,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 350,
+    "ours_models_near": 6
+   },
+   {
+    "n": 11,
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "paper_models": 6,
+    "paper_pairs": 268,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 268,
+    "ours_models_near": 6
+   },
+   {
+    "n": 12,
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "paper_models": 6,
+    "paper_pairs": 248,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 248,
+    "ours_models_near": 6
+   },
+   {
+    "n": 13,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 217,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 217,
+    "ours_models_near": 10
+   },
+   {
+    "n": 14,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "paper_models": 7,
+    "paper_pairs": 210,
+    "ours_models_exact": 7,
+    "ours_pairs_exact": 210,
+    "ours_models_near": 7
+   },
+   {
+    "n": 15,
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 6,
+    "paper_pairs": 157,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 157,
+    "ours_models_near": 6
+   },
+   {
+    "n": 16,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 101,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 101,
+    "ours_models_near": 6
+   },
+   {
+    "n": 17,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "paper_models": 7,
+    "paper_pairs": 93,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 67,
+    "ours_models_near": 5
+   },
+   {
+    "n": 18,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "paper_models": 5,
+    "paper_pairs": 86,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 86,
+    "ours_models_near": 5
+   }
+  ],
+  "ours": [
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 17216
+   },
+   {
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "models": 5,
+    "pairs": 4837
+   },
+   {
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "models": 5,
+    "pairs": 2359
+   },
+   {
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 2082
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "models": 10,
+    "pairs": 1403
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "models": 10,
+    "pairs": 841
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 574
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 515
+   },
+   {
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "models": 8,
+    "pairs": 472
+   },
+   {
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "models": 6,
+    "pairs": 350
+   },
+   {
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "models": 6,
+    "pairs": 268
+   },
+   {
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "models": 6,
+    "pairs": 248
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 217
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "models": 7,
+    "pairs": 210
+   },
+   {
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "models": 6,
+    "pairs": 157
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 101
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "models": 5,
+    "pairs": 86
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "models": 5,
+    "pairs": 67
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & cellular_process <= 0.0  => +",
+    "models": 5,
+    "pairs": 9
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & 0.1 < cellular_process <= 0.6  => -",
+    "models": 5,
+    "pairs": 1
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization > 0.1  => +",
+    "models": 5,
+    "pairs": 0
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization <= 0.1  => -",
+    "models": 5,
+    "pairs": 0
+   }
+  ]
+ },
+ "2": {
+  "n_frequent": 22,
+  "n_paper": 18,
+  "n_paper_exact_found": 18,
+  "n_paper_exact_frequent": 18,
+  "n_paper_near_frequent": 18,
+  "n_ours_frequent_in_paper": 18,
+  "comparison": [
+   {
+    "n": 1,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 17216,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 17216,
+    "ours_models_near": 10
+   },
+   {
+    "n": 2,
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 4837,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 4837,
+    "ours_models_near": 5
+   },
+   {
+    "n": 3,
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 2359,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 2359,
+    "ours_models_near": 5
+   },
+   {
+    "n": 4,
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 2082,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 2082,
+    "ours_models_near": 6
+   },
+   {
+    "n": 5,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 10,
+    "paper_pairs": 1403,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 1403,
+    "ours_models_near": 10
+   },
+   {
+    "n": 6,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "paper_models": 10,
+    "paper_pairs": 841,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 841,
+    "ours_models_near": 10
+   },
+   {
+    "n": 7,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 574,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 574,
+    "ours_models_near": 10
+   },
+   {
+    "n": 8,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 515,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 515,
+    "ours_models_near": 10
+   },
+   {
+    "n": 9,
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "paper_models": 8,
+    "paper_pairs": 472,
+    "ours_models_exact": 8,
+    "ours_pairs_exact": 472,
+    "ours_models_near": 8
+   },
+   {
+    "n": 10,
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "paper_models": 6,
+    "paper_pairs": 350,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 350,
+    "ours_models_near": 6
+   },
+   {
+    "n": 11,
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "paper_models": 6,
+    "paper_pairs": 268,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 268,
+    "ours_models_near": 6
+   },
+   {
+    "n": 12,
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "paper_models": 6,
+    "paper_pairs": 248,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 248,
+    "ours_models_near": 6
+   },
+   {
+    "n": 13,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 217,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 217,
+    "ours_models_near": 10
+   },
+   {
+    "n": 14,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "paper_models": 7,
+    "paper_pairs": 210,
+    "ours_models_exact": 7,
+    "ours_pairs_exact": 210,
+    "ours_models_near": 7
+   },
+   {
+    "n": 15,
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 6,
+    "paper_pairs": 157,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 157,
+    "ours_models_near": 6
+   },
+   {
+    "n": 16,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 101,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 101,
+    "ours_models_near": 6
+   },
+   {
+    "n": 17,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "paper_models": 7,
+    "paper_pairs": 93,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 81,
+    "ours_models_near": 6
+   },
+   {
+    "n": 18,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "paper_models": 5,
+    "paper_pairs": 86,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 86,
+    "ours_models_near": 5
+   }
+  ],
+  "ours": [
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 17216
+   },
+   {
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "models": 5,
+    "pairs": 4837
+   },
+   {
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "models": 5,
+    "pairs": 2359
+   },
+   {
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 2082
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "models": 10,
+    "pairs": 1403
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "models": 10,
+    "pairs": 841
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 574
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 515
+   },
+   {
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "models": 8,
+    "pairs": 472
+   },
+   {
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "models": 6,
+    "pairs": 350
+   },
+   {
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "models": 6,
+    "pairs": 268
+   },
+   {
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "models": 6,
+    "pairs": 248
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 217
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "models": 7,
+    "pairs": 210
+   },
+   {
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "models": 6,
+    "pairs": 157
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 101
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "models": 5,
+    "pairs": 86
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "models": 6,
+    "pairs": 81
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & cellular_process <= 0.0  => +",
+    "models": 5,
+    "pairs": 9
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & 0.1 < cellular_process <= 0.6  => -",
+    "models": 6,
+    "pairs": 1
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization > 0.1  => +",
+    "models": 5,
+    "pairs": 0
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization <= 0.1  => -",
+    "models": 5,
+    "pairs": 0
+   }
+  ]
+ },
+ "3": {
+  "n_frequent": 22,
+  "n_paper": 18,
+  "n_paper_exact_found": 18,
+  "n_paper_exact_frequent": 18,
+  "n_paper_near_frequent": 18,
+  "n_ours_frequent_in_paper": 18,
+  "comparison": [
+   {
+    "n": 1,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 17216,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 17216,
+    "ours_models_near": 10
+   },
+   {
+    "n": 2,
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 4837,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 4837,
+    "ours_models_near": 5
+   },
+   {
+    "n": 3,
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 2359,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 2359,
+    "ours_models_near": 5
+   },
+   {
+    "n": 4,
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 2082,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 2082,
+    "ours_models_near": 6
+   },
+   {
+    "n": 5,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 10,
+    "paper_pairs": 1403,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 1403,
+    "ours_models_near": 10
+   },
+   {
+    "n": 6,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "paper_models": 10,
+    "paper_pairs": 841,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 841,
+    "ours_models_near": 10
+   },
+   {
+    "n": 7,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 574,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 574,
+    "ours_models_near": 10
+   },
+   {
+    "n": 8,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 515,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 515,
+    "ours_models_near": 10
+   },
+   {
+    "n": 9,
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "paper_models": 8,
+    "paper_pairs": 472,
+    "ours_models_exact": 8,
+    "ours_pairs_exact": 472,
+    "ours_models_near": 8
+   },
+   {
+    "n": 10,
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "paper_models": 6,
+    "paper_pairs": 350,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 350,
+    "ours_models_near": 6
+   },
+   {
+    "n": 11,
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "paper_models": 6,
+    "paper_pairs": 268,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 268,
+    "ours_models_near": 6
+   },
+   {
+    "n": 12,
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "paper_models": 6,
+    "paper_pairs": 248,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 248,
+    "ours_models_near": 6
+   },
+   {
+    "n": 13,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 217,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 217,
+    "ours_models_near": 10
+   },
+   {
+    "n": 14,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "paper_models": 7,
+    "paper_pairs": 210,
+    "ours_models_exact": 7,
+    "ours_pairs_exact": 210,
+    "ours_models_near": 7
+   },
+   {
+    "n": 15,
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 6,
+    "paper_pairs": 157,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 157,
+    "ours_models_near": 6
+   },
+   {
+    "n": 16,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 101,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 101,
+    "ours_models_near": 6
+   },
+   {
+    "n": 17,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "paper_models": 7,
+    "paper_pairs": 93,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 67,
+    "ours_models_near": 5
+   },
+   {
+    "n": 18,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "paper_models": 5,
+    "paper_pairs": 86,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 86,
+    "ours_models_near": 5
+   }
+  ],
+  "ours": [
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 17216
+   },
+   {
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "models": 5,
+    "pairs": 4837
+   },
+   {
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "models": 5,
+    "pairs": 2359
+   },
+   {
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 2082
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "models": 10,
+    "pairs": 1403
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "models": 10,
+    "pairs": 841
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 574
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 515
+   },
+   {
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "models": 8,
+    "pairs": 472
+   },
+   {
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "models": 6,
+    "pairs": 350
+   },
+   {
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "models": 6,
+    "pairs": 268
+   },
+   {
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "models": 6,
+    "pairs": 248
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 217
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "models": 7,
+    "pairs": 210
+   },
+   {
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "models": 6,
+    "pairs": 157
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 101
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "models": 5,
+    "pairs": 86
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "models": 5,
+    "pairs": 67
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & cellular_process <= 0.0  => +",
+    "models": 5,
+    "pairs": 9
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & 0.1 < cellular_process <= 0.6  => -",
+    "models": 5,
+    "pairs": 1
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization > 0.1  => +",
+    "models": 5,
+    "pairs": 0
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization <= 0.1  => -",
+    "models": 5,
+    "pairs": 0
+   }
+  ]
+ },
+ "4": {
+  "n_frequent": 22,
+  "n_paper": 18,
+  "n_paper_exact_found": 18,
+  "n_paper_exact_frequent": 18,
+  "n_paper_near_frequent": 18,
+  "n_ours_frequent_in_paper": 18,
+  "comparison": [
+   {
+    "n": 1,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 17216,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 17216,
+    "ours_models_near": 10
+   },
+   {
+    "n": 2,
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 4837,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 4837,
+    "ours_models_near": 5
+   },
+   {
+    "n": 3,
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "paper_models": 5,
+    "paper_pairs": 2359,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 2359,
+    "ours_models_near": 5
+   },
+   {
+    "n": 4,
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 2082,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 2082,
+    "ours_models_near": 6
+   },
+   {
+    "n": 5,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 10,
+    "paper_pairs": 1403,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 1403,
+    "ours_models_near": 10
+   },
+   {
+    "n": 6,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "paper_models": 10,
+    "paper_pairs": 841,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 841,
+    "ours_models_near": 10
+   },
+   {
+    "n": 7,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 574,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 574,
+    "ours_models_near": 10
+   },
+   {
+    "n": 8,
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "paper_models": 10,
+    "paper_pairs": 515,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 515,
+    "ours_models_near": 10
+   },
+   {
+    "n": 9,
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "paper_models": 8,
+    "paper_pairs": 472,
+    "ours_models_exact": 8,
+    "ours_pairs_exact": 472,
+    "ours_models_near": 8
+   },
+   {
+    "n": 10,
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "paper_models": 6,
+    "paper_pairs": 350,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 350,
+    "ours_models_near": 6
+   },
+   {
+    "n": 11,
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "paper_models": 6,
+    "paper_pairs": 268,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 268,
+    "ours_models_near": 6
+   },
+   {
+    "n": 12,
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "paper_models": 6,
+    "paper_pairs": 248,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 248,
+    "ours_models_near": 6
+   },
+   {
+    "n": 13,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "paper_models": 10,
+    "paper_pairs": 217,
+    "ours_models_exact": 10,
+    "ours_pairs_exact": 217,
+    "ours_models_near": 10
+   },
+   {
+    "n": 14,
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "paper_models": 7,
+    "paper_pairs": 210,
+    "ours_models_exact": 7,
+    "ours_pairs_exact": 210,
+    "ours_models_near": 7
+   },
+   {
+    "n": 15,
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "paper_models": 6,
+    "paper_pairs": 157,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 157,
+    "ours_models_near": 6
+   },
+   {
+    "n": 16,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "paper_models": 6,
+    "paper_pairs": 101,
+    "ours_models_exact": 6,
+    "ours_pairs_exact": 101,
+    "ours_models_near": 6
+   },
+   {
+    "n": 17,
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "paper_models": 7,
+    "paper_pairs": 93,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 66,
+    "ours_models_near": 5
+   },
+   {
+    "n": 18,
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "paper_models": 5,
+    "paper_pairs": 86,
+    "ours_models_exact": 5,
+    "ours_pairs_exact": 86,
+    "ours_models_near": 5
+   }
+  ],
+  "ours": [
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & 0.0 < cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 17216
+   },
+   {
+    "rule": "cellular_process > 0.8 & metabolic_process > 0.6  => +",
+    "models": 5,
+    "pairs": 4837
+   },
+   {
+    "rule": "cellular_process > 0.9 & metabolic_process <= 0.6  => +",
+    "models": 5,
+    "pairs": 2359
+   },
+   {
+    "rule": "cellular_anatomical_entity > 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 2082
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.1 & cellular_process <= 0.0  => -",
+    "models": 10,
+    "pairs": 1403
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.5  => -",
+    "models": 10,
+    "pairs": 841
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.8 & cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 574
+   },
+   {
+    "rule": "binding <= 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & 0.5 < cellular_process <= 0.6  => +",
+    "models": 10,
+    "pairs": 515
+   },
+   {
+    "rule": "binding > 0.7 & 0.5 < biological_regulation <= 0.9 & cellular_anatomical_entity > 0.7 & cellular_process <= 0.6  => +",
+    "models": 8,
+    "pairs": 472
+   },
+   {
+    "rule": "0.5 < binding <= 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => -",
+    "models": 6,
+    "pairs": 350
+   },
+   {
+    "rule": "binding > 0.7 & biological_regulation <= 0.5 & cellular_anatomical_entity > 0.9 & cellular_process <= 0.6  => +",
+    "models": 6,
+    "pairs": 268
+   },
+   {
+    "rule": "binding <= 0.1 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => +",
+    "models": 6,
+    "pairs": 248
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & 0.1 < cellular_anatomical_entity <= 0.8 & cellular_process <= 0.6  => -",
+    "models": 10,
+    "pairs": 217
+   },
+   {
+    "rule": "binding <= 0.5 & biological_regulation <= 0.7 & 0.1 < cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => -",
+    "models": 7,
+    "pairs": 210
+   },
+   {
+    "rule": "0.1 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.0  => -",
+    "models": 6,
+    "pairs": 157
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.8  => +",
+    "models": 6,
+    "pairs": 101
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & 0.0 < cellular_process <= 0.5  => -",
+    "models": 5,
+    "pairs": 86
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & cellular_process <= 0.1  => +",
+    "models": 5,
+    "pairs": 66
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.7 & cellular_process <= 0.0  => +",
+    "models": 5,
+    "pairs": 9
+   },
+   {
+    "rule": "0.5 < binding <= 0.5 & biological_regulation <= 0.5 & cellular_anatomical_entity <= 0.1 & 0.1 < cellular_process <= 0.6  => -",
+    "models": 5,
+    "pairs": 0
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization > 0.1  => +",
+    "models": 5,
+    "pairs": 0
+   },
+   {
+    "rule": "biological_regulation > 0.7 & cellular_anatomical_entity <= 0.8 & 0.6 < cellular_process <= 0.6 & localization <= 0.1  => -",
+    "models": 5,
+    "pairs": 0
+   }
+  ]
+ }
+}

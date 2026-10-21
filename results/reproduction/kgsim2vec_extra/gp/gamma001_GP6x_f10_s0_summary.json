@@ -1,0 +1,9 @@
+{
+ "alg": "GP6x",
+ "fold": 10,
+ "seed": 0,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_gamma001.npz",
+ "WAF": 0.8642201180837078,
+ "seconds": 60,
+ "model": "Max(behavior, catalytic_activity, cellular_process, interspecies_interaction_between_organisms, molecular_adaptor_activity, molecular_function_regulator, molecular_transducer_activity, multicellular_organismal_process, signaling, Min(structural_molecule_activity, cellular_process + metabolic_process))"
+}

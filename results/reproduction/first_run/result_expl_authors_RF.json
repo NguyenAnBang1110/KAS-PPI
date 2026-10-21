@@ -1,0 +1,44 @@
+{
+ "table3_median_dPr_dRe_dF1_wo_necessary__dPr_dRe_dF1_only_sufficient": [
+  -0.106,
+  -0.158,
+  -0.13,
+  0.02,
+  0.012,
+  0.034
+ ],
+ "only_sufficient_vs_model_prediction_Pr_Re_F1": [
+  0.98,
+  0.929,
+  0.961
+ ],
+ "paper_table3_RDF2Vec": [
+  -0.106,
+  -0.153,
+  -0.125,
+  0.973,
+  0.888,
+  0.945
+ ],
+ "table4_suff_avg_std_nec_avg_std": [
+  5.57,
+  3.65,
+  0.43,
+  1.22
+ ],
+ "paper_table4_RDF2Vec": [
+  5.6,
+  3.7,
+  0.4,
+  1.3
+ ],
+ "shared_aspects_avg_std": [
+  9.16,
+  6.65
+ ],
+ "paper_shared": [
+  9.1,
+  6.5
+ ],
+ "seconds": 507
+}

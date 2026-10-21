@@ -1,0 +1,12 @@
+== KAS with finer players (depth-2 GO subtrees + residual unit per aspect; 1102 units), KGsim2vec view, RF, fold 1, 300 pairs
+  players per pair: aspect level 5.1, fine level 23.2 (median 21, exact Shapley for 0.03 of pairs)
+  time per pair: fine 2.20 s, aspect 0.27 s
+  efficiency: max |sum fine phi - sum aspect phi| = 1.9e-05
+  fine phi summed per aspect vs aspect-level phi: Spearman 0.704 (n=285); top-1 fine unit inside the top-1 aspect 0.622
+  method       deletion AUC (down)  insertion AUC (up)   [operator ks, k = 1..5 fine units]
+  Dfine        0.632                0.775
+  LOOfine      0.662                0.633
+  randomfine   0.839                0.549
+  KAS-fine vs LOOfine: deletion p=7.9e-06 (KAS lower in 0.51), insertion p=1.5e-21 (KAS higher in 0.64)
+  KAS-fine vs randomfine: deletion p=3.9e-33 (KAS lower in 0.79), insertion p=3.3e-42 (KAS higher in 0.85)
+  most frequent top-1 fine units: [('regulation of biological process', 72), ('organelle', 30), ('cellular component organization or biogenesis', 29), ('cellular metabolic process', 28), ('membrane', 23), ('protein binding', 20), ('nucleoplasm', 12), ('heterocyclic compound binding', 11)]

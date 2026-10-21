@@ -1,0 +1,41 @@
+== ROAD-style imputation, KGsim2vec view, RF, 2200 pairs; discriminator AUC imp 0.639 zero 0.942 knn 0.433
+-- operator imp
+  method    | MoRF AUC (down) | LeRF AUC (up) | gap (up) | MoRF p@k1 k2 k3 | flip@1
+  D         | 0.681           | 0.818         | 0.138    | 0.826 0.731 0.659 | 0.105
+  FS0       | 0.668           | 0.832         | 0.164    | 0.810 0.710 0.649 | 0.123
+  LIME      | 0.731           | 0.789         | 0.058    | 0.838 0.789 0.729 | 0.098
+  LOO       | 0.685           | 0.821         | 0.136    | 0.823 0.734 0.670 | 0.107
+  TreeSHAP  | 0.649           | 0.839         | 0.189    | 0.800 0.691 0.610 | 0.138
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/analyze_road.py:32: RuntimeWarning: Mean of empty slice
+  print(f"  {m:9s} | {np.nanmean(mor):.3f}           | {np.nanmean(ler):.3f}         | {np.nanmean(gap):.3f}    | "
+  random    | 0.760           | nan         | nan    | 0.876 0.831 0.763 | 0.058
+  KAS vs FS0      : MoRF p=3.2e-11 folds KAS better 0/10  LeRF p=2.8e-29 folds KAS better 0/10  gap p=1.1e-25 folds KAS better 0/10
+  KAS vs LIME     : MoRF p=2.8e-45 folds KAS better 10/10  LeRF p=5.2e-29 folds KAS better 10/10  gap p=0 folds KAS better 10/10
+  KAS vs LOO      : MoRF p=0.023 folds KAS better 7/10  LeRF p=0.035 folds KAS better 2/10  gap p=0.23 folds KAS better 4/10
+  KAS vs TreeSHAP : MoRF p=8.4e-45 folds KAS better 0/10  LeRF p=0 folds KAS better 0/10  gap p=0 folds KAS better 0/10
+/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/analyze_road.py:45: RuntimeWarning: Mean of empty slice
+  out[op] = {m: [float(np.nanmean(s)) for s in stats[m]] for m in stats}
+-- operator knn
+  method    | MoRF AUC (down) | LeRF AUC (up) | gap (up) | MoRF p@k1 k2 k3 | flip@1
+  D         | 0.728           | 0.858         | 0.130    | 0.859 0.786 0.710 | 0.091
+  FS0       | 0.716           | 0.866         | 0.150    | 0.853 0.768 0.689 | 0.099
+  LIME      | 0.783           | 0.830         | 0.047    | 0.883 0.828 0.783 | 0.068
+  LOO       | 0.728           | 0.861         | 0.133    | 0.858 0.773 0.714 | 0.094
+  TreeSHAP  | 0.698           | 0.870         | 0.172    | 0.855 0.747 0.661 | 0.105
+  random    | 0.807           | nan         | nan    | 0.902 0.866 0.823 | 0.045
+  KAS vs FS0      : MoRF p=2.5e-07 folds KAS better 0/10  LeRF p=3.1e-15 folds KAS better 0/10  gap p=7e-12 folds KAS better 0/10
+  KAS vs LIME     : MoRF p=0 folds KAS better 10/10  LeRF p=2.1e-21 folds KAS better 10/10  gap p=0 folds KAS better 10/10
+  KAS vs LOO      : MoRF p=0.63 folds KAS better 6/10  LeRF p=0.00011 folds KAS better 2/10  gap p=0.36 folds KAS better 5/10
+  KAS vs TreeSHAP : MoRF p=2.3e-25 folds KAS better 0/10  LeRF p=1.3e-23 folds KAS better 0/10  gap p=6.2e-33 folds KAS better 0/10
+-- operator zero
+  method    | MoRF AUC (down) | LeRF AUC (up) | gap (up) | MoRF p@k1 k2 k3 | flip@1
+  D         | 0.558           | 0.772         | 0.214    | 0.782 0.636 0.513 | 0.123
+  FS0       | 0.520           | 0.794         | 0.274    | 0.740 0.593 0.467 | 0.144
+  LIME      | 0.642           | 0.718         | 0.075    | 0.805 0.718 0.630 | 0.083
+  LOO       | 0.574           | 0.775         | 0.201    | 0.758 0.636 0.546 | 0.137
+  TreeSHAP  | 0.542           | 0.791         | 0.249    | 0.751 0.615 0.495 | 0.139
+  random    | 0.679           | nan         | nan    | 0.866 0.784 0.670 | 0.060
+  KAS vs FS0      : MoRF p=0 folds KAS better 0/10  LeRF p=0 folds KAS better 0/10  gap p=0 folds KAS better 0/10
+  KAS vs LIME     : MoRF p=0 folds KAS better 10/10  LeRF p=0 folds KAS better 10/10  gap p=0 folds KAS better 10/10
+  KAS vs LOO      : MoRF p=2e-24 folds KAS better 10/10  LeRF p=5.3e-07 folds KAS better 0/10  gap p=4.4e-13 folds KAS better 9/10
+  KAS vs TreeSHAP : MoRF p=4.6e-18 folds KAS better 0/10  LeRF p=0 folds KAS better 0/10  gap p=2.8e-45 folds KAS better 0/10

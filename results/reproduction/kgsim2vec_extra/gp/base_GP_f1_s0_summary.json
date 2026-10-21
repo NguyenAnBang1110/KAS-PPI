@@ -1,0 +1,9 @@
+{
+ "alg": "GP",
+ "fold": 1,
+ "seed": 0,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "WAF": 0.8837083812436604,
+ "seconds": 178,
+ "model": "Max(multicellular_organismal_process, catalytic_activity*cellular_anatomical_entity, cellular_anatomical_entity*Max(cellular_anatomical_entity*Max(cellular_process, multicellular_organismal_process, cellular_anatomical_entity*response_to_stimulus, immune_system_process + rhythmic_process), intraspecies_interaction_between_organisms + metabolic_process), Max(cellular_process, biomineralization + structural_molecule_activity)*Max(cellular_process, catalytic_activity + structural_molecule_activity), biological_phase + biomineralization)"
+}

@@ -1,0 +1,9 @@
+{
+ "alg": "GP",
+ "fold": 1,
+ "seed": 1,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "WAF": 0.8664044289044289,
+ "seconds": 63,
+ "model": "Max(cellular_process, biomineralization + Max(biological_regulation, metabolic_process)**2)"
+}

@@ -1,0 +1,9 @@
+{
+ "alg": "GP6x",
+ "fold": 2,
+ "seed": 1,
+ "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "WAF": 0.8684664360519373,
+ "seconds": 72,
+ "model": "Max(0.208, cellular_process, interspecies_interaction_between_organisms, intraspecies_interaction_between_organisms, molecular_function_regulator, molecular_transducer_activity, multicellular_organismal_process, structural_molecule_activity)"
+}

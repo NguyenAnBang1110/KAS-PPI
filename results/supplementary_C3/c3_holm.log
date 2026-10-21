@@ -1,0 +1,109 @@
+== seek k<=2: m = 18
+  D_LeRF_greater_LOO_1         p=0.8389  holm=0.8389  
+  D_LeRF_greater_LOO_2         p=0.06543  holm=0.2256  
+  D_LeRF_greater_SEEKN_1       p=0.02441  holm=0.1953  
+  D_LeRF_greater_SEEKN_2       p=0.0009766  holm=0.01758  *
+  D_LeRF_greater_SEEKS_1       p=0.03223  holm=0.2256  
+  D_LeRF_greater_SEEKS_2       p=0.0009766  holm=0.01758  *
+  D_MoRF_less_LOO_1            p=0.04199  holm=0.2256  
+  D_MoRF_less_LOO_2            p=0.03223  holm=0.2256  
+  D_MoRF_less_SEEKN_1          p=0.03223  holm=0.2256  
+  D_MoRF_less_SEEKN_2          p=0.001953  holm=0.02148  *
+  D_MoRF_less_SEEKS_1          p=0.0009766  holm=0.01758  *
+  D_MoRF_less_SEEKS_2          p=0.0009766  holm=0.01758  *
+  D_gap_greater_LOO_1          p=0.1162  holm=0.2324  
+  D_gap_greater_LOO_2          p=0.01855  holm=0.167  
+  D_gap_greater_SEEKN_1        p=0.006836  holm=0.06836  
+  D_gap_greater_SEEKN_2        p=0.0009766  holm=0.01758  *
+  D_gap_greater_SEEKS_1        p=0.0009766  holm=0.01758  *
+  D_gap_greater_SEEKS_2        p=0.0009766  holm=0.01758  *
+== seek k<=3: m = 27
+  D_LeRF_greater_LOO_1         p=0.8389  holm=1  
+  D_LeRF_greater_LOO_2         p=0.06543  holm=0.458  
+  D_LeRF_greater_LOO_3         p=0.05273  holm=0.4219  
+  D_LeRF_greater_SEEKN_1       p=0.02441  holm=0.3174  
+  D_LeRF_greater_SEEKN_2       p=0.0009766  holm=0.02637  *
+  D_LeRF_greater_SEEKN_3       p=0.001953  holm=0.03516  *
+  D_LeRF_greater_SEEKS_1       p=0.03223  holm=0.3867  
+  D_LeRF_greater_SEEKS_2       p=0.0009766  holm=0.02637  *
+  D_LeRF_greater_SEEKS_3       p=0.001953  holm=0.03516  *
+  D_MoRF_less_LOO_1            p=0.04199  holm=0.3867  
+  D_MoRF_less_LOO_2            p=0.03223  holm=0.3867  
+  D_MoRF_less_LOO_3            p=1  holm=1  
+  D_MoRF_less_SEEKN_1          p=0.03223  holm=0.3867  
+  D_MoRF_less_SEEKN_2          p=0.001953  holm=0.03516  *
+  D_MoRF_less_SEEKN_3          p=1  holm=1  
+  D_MoRF_less_SEEKS_1          p=0.0009766  holm=0.02637  *
+  D_MoRF_less_SEEKS_2          p=0.0009766  holm=0.02637  *
+  D_MoRF_less_SEEKS_3          p=0.0009766  holm=0.02637  *
+  D_gap_greater_LOO_1          p=0.1162  holm=0.6973  
+  D_gap_greater_LOO_2          p=0.01855  holm=0.2598  
+  D_gap_greater_LOO_3          p=1  holm=1  
+  D_gap_greater_SEEKN_1        p=0.006836  holm=0.1025  
+  D_gap_greater_SEEKN_2        p=0.0009766  holm=0.02637  *
+  D_gap_greater_SEEKN_3        p=1  holm=1  
+  D_gap_greater_SEEKS_1        p=0.0009766  holm=0.02637  *
+  D_gap_greater_SEEKS_2        p=0.0009766  holm=0.02637  *
+  D_gap_greater_SEEKS_3        p=0.0009766  holm=0.02637  *
+== kg k<=2: m = 24
+  D_LeRF_greater_FS0_1         p=0.009766  holm=0.1758  
+  D_LeRF_greater_FS0_2         p=0.5391  holm=1  
+  D_LeRF_greater_LIME_1        p=0.0009766  holm=0.02344  *
+  D_LeRF_greater_LIME_2        p=0.001953  holm=0.03711  *
+  D_LeRF_greater_LOO_1         p=0.1377  holm=1  
+  D_LeRF_greater_LOO_2         p=0.1162  holm=1  
+  D_LeRF_greater_TreeSHAP_1    p=0.752  holm=1  
+  D_LeRF_greater_TreeSHAP_2    p=0.9863  holm=1  
+  D_MoRF_less_FS0_1            p=0.999  holm=1  
+  D_MoRF_less_FS0_2            p=1  holm=1  
+  D_MoRF_less_LIME_1           p=0.0009766  holm=0.02344  *
+  D_MoRF_less_LIME_2           p=0.0009766  holm=0.02344  *
+  D_MoRF_less_LOO_1            p=0.9199  holm=1  
+  D_MoRF_less_LOO_2            p=1  holm=1  
+  D_MoRF_less_TreeSHAP_1       p=1  holm=1  
+  D_MoRF_less_TreeSHAP_2       p=1  holm=1  
+  D_gap_greater_FS0_1          p=0.9971  holm=1  
+  D_gap_greater_FS0_2          p=1  holm=1  
+  D_gap_greater_LIME_1         p=0.0009766  holm=0.02344  *
+  D_gap_greater_LIME_2         p=0.0009766  holm=0.02344  *
+  D_gap_greater_LOO_1          p=0.9346  holm=1  
+  D_gap_greater_LOO_2          p=0.999  holm=1  
+  D_gap_greater_TreeSHAP_1     p=1  holm=1  
+  D_gap_greater_TreeSHAP_2     p=1  holm=1  
+== kg k<=3: m = 36
+  D_LeRF_greater_FS0_1         p=0.009766  holm=0.2637  
+  D_LeRF_greater_FS0_2         p=0.5391  holm=1  
+  D_LeRF_greater_FS0_3         p=0.0009766  holm=0.03516  *
+  D_LeRF_greater_LIME_1        p=0.0009766  holm=0.03516  *
+  D_LeRF_greater_LIME_2        p=0.001953  holm=0.05664  
+  D_LeRF_greater_LIME_3        p=1  holm=1  
+  D_LeRF_greater_LOO_1         p=0.1377  holm=1  
+  D_LeRF_greater_LOO_2         p=0.1162  holm=1  
+  D_LeRF_greater_LOO_3         p=0.001953  holm=0.05664  
+  D_LeRF_greater_TreeSHAP_1    p=0.752  holm=1  
+  D_LeRF_greater_TreeSHAP_2    p=0.9863  holm=1  
+  D_LeRF_greater_TreeSHAP_3    p=0.0009766  holm=0.03516  *
+  D_MoRF_less_FS0_1            p=0.999  holm=1  
+  D_MoRF_less_FS0_2            p=1  holm=1  
+  D_MoRF_less_FS0_3            p=1  holm=1  
+  D_MoRF_less_LIME_1           p=0.0009766  holm=0.03516  *
+  D_MoRF_less_LIME_2           p=0.0009766  holm=0.03516  *
+  D_MoRF_less_LIME_3           p=0.01855  holm=0.4824  
+  D_MoRF_less_LOO_1            p=0.9199  holm=1  
+  D_MoRF_less_LOO_2            p=1  holm=1  
+  D_MoRF_less_LOO_3            p=1  holm=1  
+  D_MoRF_less_TreeSHAP_1       p=1  holm=1  
+  D_MoRF_less_TreeSHAP_2       p=1  holm=1  
+  D_MoRF_less_TreeSHAP_3       p=1  holm=1  
+  D_gap_greater_FS0_1          p=0.9971  holm=1  
+  D_gap_greater_FS0_2          p=1  holm=1  
+  D_gap_greater_FS0_3          p=1  holm=1  
+  D_gap_greater_LIME_1         p=0.0009766  holm=0.03516  *
+  D_gap_greater_LIME_2         p=0.0009766  holm=0.03516  *
+  D_gap_greater_LIME_3         p=0.9863  holm=1  
+  D_gap_greater_LOO_1          p=0.9346  holm=1  
+  D_gap_greater_LOO_2          p=0.999  holm=1  
+  D_gap_greater_LOO_3          p=1  holm=1  
+  D_gap_greater_TreeSHAP_1     p=1  holm=1  
+  D_gap_greater_TreeSHAP_2     p=1  holm=1  
+  D_gap_greater_TreeSHAP_3     p=1  holm=1  
