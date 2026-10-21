@@ -1,6 +1,6 @@
 e1449850e0e8100884703089d48d2e61762d763845f58d5bfa2b06c807f6e7cb  ./.gitignore
 02e735b3dfe1c32833eb550b7ff8ffa17f5f2bc3fa1e7bae61a8f5a3883ce398  ./.python-version
-d32c3dcbf2f7fa54c187d32727b93c63e42925c21b9b6878b8b93c9867ed2648  ./README.md
+164ae9cd6ce2b91109a5134069bb63a0cb7554f6447dd35789bbdeed4afe34a4  ./README.md
 b9758af26cc82f324cf622177a26e08efc410ba2aefe442a9c9d1812116db476  ./experiments/extended_E/analyze_e1.py
 579e5a5499c99a973a66c3264af0097ac4b9ac12d6e6ecd4285df38287a9cf10  ./experiments/extended_E/analyze_sym.py
 9aa3a56b84fb967111f7451e7167fd7849685fc48e35ae7b732c67c3526ed270  ./experiments/extended_E/dt6_rules.py

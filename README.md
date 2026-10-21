@@ -24,7 +24,7 @@ figures/               script vẽ Hình 4.1–4.6 và số liệu đối chiế
 tools/                 script kiểm tra (đối chiếu 60 fold)
 ```
 
-Kết quả thô theo từng cặp (khoảng 180 MB, nén 69 MB) nằm trong `ket_qua_tho.zip` ở mục [Releases](https://github.com/NguyenAnBang1110/KAS-PPI/releases) (tag `v1.0`).
+Kết quả thô theo từng cặp (khoảng 180 MB, nén 69 MB) nằm trong `ket_qua_tho.zip` ở mục [Releases](https://github.com/NguyenAnBang1110/KAS-PPI/releases) (tag `v1.1`).
 
 ## Cài đặt
 
