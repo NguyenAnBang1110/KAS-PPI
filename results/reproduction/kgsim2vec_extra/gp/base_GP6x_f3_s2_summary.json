@@ -2,7 +2,7 @@
  "alg": "GP6x",
  "fold": 3,
  "seed": 2,
- "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "feats": "work/k10/feats_base51.npz",
  "WAF": 0.8712346144854634,
  "seconds": 123,
  "model": "Max(catalytic_activity, cellular_process, immune_system_process, molecular_transducer_activity, multicellular_organismal_process, signaling, translation_regulator_activity, -carbohydrate_utilization - cellular_process + molecular_adaptor_activity + 0.254)"

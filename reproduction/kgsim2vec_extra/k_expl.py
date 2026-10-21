@@ -4,7 +4,7 @@ usage: python3 k_expl.py VARIANT NLIME     VARIANT in {base51, beta1, gamma001}
 Models use the authors' settings (RF 10 trees as in sklearn 0.21.3; XGB tree_method exact). GP6x: the fold-1 models of
 k_gp.py. LORE (base51 only): rules from the 09/10 F3 run (lore_sa on the KAS RF100/XGB300 models, fold 1)."""
 import sys, os, json, glob, statistics, numpy as np
-V = "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2"
+V = os.environ.get("KGSIM_WORKDIR", "work")   # thư mục làm việc: bản clone ExplainablePPI, feats_kg.npz, k10/
 os.chdir(f"{V}/ExplainablePPI"); sys.path.insert(0, ".")
 for _a, _t in (('int', int), ('float', float), ('bool', bool)):
     if not hasattr(np, _a): setattr(np, _a, _t)

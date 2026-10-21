@@ -15,7 +15,7 @@ from Prediction import ML
 ALG, FOLD, SEED, FEATS, OUT = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4], sys.argv[5]
 ML.random_state_value = SEED; ML.verbose_value = 0
 F = np.load(FEATS); X = F['X']; names = [str(n) for n in F['names']]
-K = np.load('/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/feats_kg.npz'); y = K['y']; keys = [tuple(k) for k in K['keys']]
+K = np.load(os.path.join(os.environ.get("KGSIM_WORKDIR", "work"), 'feats_kg.npz')); y = K['y']; keys = [tuple(k) for k in K['keys']]
 D = 'Experimental_Results/Data/StratifiedPartitions/Indexes__crossvalidationTest__Run'
 te = [int(l) for l in open(D + ('1(complete)' if FOLD == 1 else str(FOLD)) + '.txt') if l.strip()]
 m = np.zeros(len(y), bool); m[te] = True

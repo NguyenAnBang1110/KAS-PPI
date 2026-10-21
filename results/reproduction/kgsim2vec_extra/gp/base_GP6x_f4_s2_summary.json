@@ -2,7 +2,7 @@
  "alg": "GP6x",
  "fold": 4,
  "seed": 2,
- "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "feats": "work/k10/feats_base51.npz",
  "WAF": 0.8604156822720772,
  "seconds": 119,
  "model": "Max(catalytic_activity, cellular_process, molecular_adaptor_activity, -2*cellular_process + molecular_function_regulator, -cellular_process + multicellular_organismal_process, -locomotion + translation_regulator_activity, rhythmic_process + transporter_activity + Max(interspecies_interaction_between_organisms, molecular_carrier_activity))"

@@ -1,6 +1,6 @@
 """Hình 4.2. WAF theo fold của ba view với 52 và 51 aspect.
 
-Nguồn: Thực nghiệm/KAS_PPI_v2/results_prediction_v2.json
+Nguồn: results/main/results_prediction_v2.json
   khoá "<VIEW>_<52|51>|<RF100|XGB300>", trường "folds" (WAF 10 fold, đã làm tròn 4 chữ số khi lưu),
   "median_waf", "iqr" (tính trên WAF chưa làm tròn).
 Đối chiếu: Bảng 4.9 (trung vị và IQR).
@@ -15,10 +15,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-ROOT = "/mnt/project-files/1.Luận văn"
-TN = f"{ROOT}/Thực nghiệm"
-CHUONG4 = f"{ROOT}/Báo cáo/luan_van_text/Chuong4_Thuc_nghiem.txt"
 OUT = os.path.dirname(os.path.abspath(__file__))
+RES = os.path.join(os.path.dirname(OUT), "results")   # thư mục results/ của kho
+CHUONG4 = os.path.join(OUT, "bang_chuong4.txt")        # các bảng Chương 4 dùng để đối chiếu
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans", "font.size": 9, "axes.titlesize": 9.5,
@@ -38,7 +37,7 @@ DAU = {"KAS": "o", "LOO": "s", "FS0": "^", "TreeSHAP": "D", "LIME": "v",
        "SEEKN": "P", "SEEKS": "X", "Random": "h", "DT6": "o", "GP6x": "D"}
 
 def doc_bang(so_bang):
-    """Đọc Bảng <so_bang> trong Chuong4_Thuc_nghiem.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
+    """Đọc Bảng <so_bang> trong bang_chuong4.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
     lines = open(CHUONG4, encoding="utf-8").read().split("\n")
     i = next(j for j, l in enumerate(lines) if l.startswith(f"Bảng {so_bang}."))
     rows = []
@@ -79,7 +78,7 @@ def tong_ket(ten_hinh):
     for k in sai:
         print(f"  LỆCH: {k[0]}: tệp {k[1]!r}, bảng {k[2]}")
 # ---------------------------------------------------------------------------
-SRC = f"{TN}/KAS_PPI_v2/results_prediction_v2.json"
+SRC = f"{RES}/main/results_prediction_v2.json"
 P = json.load(open(SRC))
 VIEWS = [("KG", "KGsim2vec"), ("SEEK", "SEEK"), ("HYB", "Hybrid")]
 MODELS = ["RF100", "XGB300"]

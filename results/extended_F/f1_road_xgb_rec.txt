@@ -6,14 +6,14 @@
   LIME      | 0.753           | 0.801         | 0.048    | 0.883 0.814 0.758 | 0.075
   LOO       | 0.682           | 0.842         | 0.160    | 0.850 0.727 0.649 | 0.104
   TreeSHAP  | 0.657           | 0.857         | 0.200    | 0.825 0.703 0.620 | 0.130
-/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/analyze_road.py:32: RuntimeWarning: Mean of empty slice
+work/analyze_road.py:32: RuntimeWarning: Mean of empty slice
   print(f"  {m:9s} | {np.nanmean(mor):.3f}           | {np.nanmean(ler):.3f}         | {np.nanmean(gap):.3f}    | "
   random    | 0.776           | nan         | nan    | 0.905 0.853 0.781 | 0.050
   KAS vs FS0      : MoRF p=2.8e-33 folds KAS better 0/10  LeRF p=2.8e-25 folds KAS better 0/10  gap p=0 folds KAS better 0/10
   KAS vs LIME     : MoRF p=0 folds KAS better 10/10  LeRF p=2.1e-41 folds KAS better 10/10  gap p=0 folds KAS better 10/10
   KAS vs LOO      : MoRF p=0.003 folds KAS better 1/10  LeRF p=2.1e-07 folds KAS better 3/10  gap p=2.8e-05 folds KAS better 1/10
   KAS vs TreeSHAP : MoRF p=2.2e-37 folds KAS better 0/10  LeRF p=0 folds KAS better 0/10  gap p=0 folds KAS better 0/10
-/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/analyze_road.py:45: RuntimeWarning: Mean of empty slice
+work/analyze_road.py:45: RuntimeWarning: Mean of empty slice
   out[op] = {m: [float(np.nanmean(s)) for s in stats[m]] for m in stats}
 -- operator knn
   method    | MoRF AUC (down) | LeRF AUC (up) | gap (up) | MoRF p@k1 k2 k3 | flip@1

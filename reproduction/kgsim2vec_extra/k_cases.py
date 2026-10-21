@@ -2,7 +2,7 @@
 discretisation bins, for the six pairs, with (a) the fold-1 model ('first partition') and (b) the model whose test fold
 contains the pair. DT random_state is None in the repo; we try seeds 0-9 and report how many reproduce each paper rule."""
 import sys, os, re, json, numpy as np
-V = "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2"
+V = os.environ.get("KGSIM_WORKDIR", "work")   # thư mục làm việc: bản clone ExplainablePPI, feats_kg.npz, k10/
 sys.path.insert(0, f"{V}/ExplainablePPI")
 for _a, _t in (('int', int), ('float', float), ('bool', bool)):
     if not hasattr(np, _a): setattr(np, _a, _t)

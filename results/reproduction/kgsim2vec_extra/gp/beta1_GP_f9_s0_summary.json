@@ -2,7 +2,7 @@
  "alg": "GP",
  "fold": 9,
  "seed": 0,
- "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_beta1.npz",
+ "feats": "work/k10/feats_beta1.npz",
  "WAF": 0.8597792228171194,
  "seconds": 46,
  "model": "Max(catalytic_activity, cellular_process, immune_system_process, multicellular_organismal_process, rhythmic_process, structural_molecule_activity)"

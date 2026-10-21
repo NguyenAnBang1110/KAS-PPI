@@ -12,3 +12,10 @@ protein.aliases.*
 # kết quả thô theo từng cặp: đưa lên mục Release
 ket_qua_tho*.zip
 *.npz
+# hình sinh lại bởi figures/ve_hinh_4_*.py
+figures/hinh_4_*.png
+# đầu ra của các lệnh kiểm chứng trong README
+/c1.json
+/c3.json
+/ket_qua_tho/
+.venv/

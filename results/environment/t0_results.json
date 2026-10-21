@@ -5,7 +5,7 @@
   "sklearn": "1.9.1",
   "xgboost": "3.4.1",
   "scipy": "1.18.1",
-  "input": "/mnt/project-files/1.Lu\u1eadn v\u0103n/Th\u1ef1c nghi\u1ec7m/KAS_PPI_v2/kas_group/string_check_input.npz",
+  "input": "string_check_input.npz",
   "dtype": "float32"
  },
  "KG_51|RF100": {

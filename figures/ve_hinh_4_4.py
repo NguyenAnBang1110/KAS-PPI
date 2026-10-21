@@ -1,14 +1,14 @@
 """Hình 4.4. Thứ hạng Fidelity trên view KGsim2vec thay đổi theo toán tử xoá (RF100).
 
 Nguồn:
-  ks   : Thực nghiệm/KAS_PPI_v2/summary_v2.json, khoá pooled["kg|rf"]["del_<PP>"]["mean"]
+  ks   : results/main/summary_v2.json, khoá pooled["kg|rf"]["del_<PP>"]["mean"]
          (deletion AUC, 2,200 cặp; PP = D (KAS), LOO, FS0, TreeSHAP, LIME, random)
-  imp  : Thực nghiệm/KAS_PPI_v2/mo_rong_09_10/ket_qua/road_rf_all_summary.json,
+  imp  : results/extended_F/road_rf_all_summary.json,
          res["imp"][<PP>][0] (MoRF AUC, 47,142 cặp); AUC bộ phân biệt: disc["imp"]
-  knn  : Thực nghiệm/KAS_PPI_v2/mo_rong_09_10/ket_qua/road_rf_rec_summary.json,
+  knn  : results/extended_F/road_rf_rec_summary.json,
          res["knn"][<PP>][0] (MoRF AUC, 2,200 cặp; knn chỉ chạy trên 2,200 cặp); disc["knn"]
   zero : road_rf_all_summary.json, res["zero"][<PP>][0] (MoRF AUC, 47,142 cặp); disc["zero"]
-  (phần tử [0] là MoRF AUC theo mo_rong_09_10/analyze_road.py: [MoRF, LeRF, gap])
+  (phần tử [0] là MoRF AUC theo experiments/extended_F/analyze_road.py: [MoRF, LeRF, gap])
 Đối chiếu: Bảng 4.11 (dòng KGsim2vec RF100, phần deletion) và Bảng 4.14 (các cột RF100).
 Chạy: python3 ve_hinh_4_4.py
 """
@@ -21,10 +21,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-ROOT = "/mnt/project-files/1.Luận văn"
-TN = f"{ROOT}/Thực nghiệm"
-CHUONG4 = f"{ROOT}/Báo cáo/luan_van_text/Chuong4_Thuc_nghiem.txt"
 OUT = os.path.dirname(os.path.abspath(__file__))
+RES = os.path.join(os.path.dirname(OUT), "results")   # thư mục results/ của kho
+CHUONG4 = os.path.join(OUT, "bang_chuong4.txt")        # các bảng Chương 4 dùng để đối chiếu
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans", "font.size": 9, "axes.titlesize": 9.5,
@@ -44,7 +43,7 @@ DAU = {"KAS": "o", "LOO": "s", "FS0": "^", "TreeSHAP": "D", "LIME": "v",
        "SEEKN": "P", "SEEKS": "X", "Random": "h", "DT6": "o", "GP6x": "D"}
 
 def doc_bang(so_bang):
-    """Đọc Bảng <so_bang> trong Chuong4_Thuc_nghiem.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
+    """Đọc Bảng <so_bang> trong bang_chuong4.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
     lines = open(CHUONG4, encoding="utf-8").read().split("\n")
     i = next(j for j, l in enumerate(lines) if l.startswith(f"Bảng {so_bang}."))
     rows = []
@@ -85,9 +84,9 @@ def tong_ket(ten_hinh):
     for k in sai:
         print(f"  LỆCH: {k[0]}: tệp {k[1]!r}, bảng {k[2]}")
 # ---------------------------------------------------------------------------
-S_KS = f"{TN}/KAS_PPI_v2/summary_v2.json"
-S_ALL = f"{TN}/KAS_PPI_v2/mo_rong_09_10/ket_qua/road_rf_all_summary.json"
-S_REC = f"{TN}/KAS_PPI_v2/mo_rong_09_10/ket_qua/road_rf_rec_summary.json"
+S_KS = f"{RES}/main/summary_v2.json"
+S_ALL = f"{RES}/extended_F/road_rf_all_summary.json"
+S_REC = f"{RES}/extended_F/road_rf_rec_summary.json"
 PP = ["KAS", "LOO", "FS0", "TreeSHAP", "LIME", "Random"]
 KHOA = {"KAS": "D", "Random": "random"}
 ks = json.load(open(S_KS))["pooled"]["kg|rf"]

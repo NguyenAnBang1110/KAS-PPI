@@ -1,12 +1,12 @@
 """Hình 4.5. Đánh đổi fidelity–plausibility trên view SEEK.
 
 Nguồn:
-  Trục hoành: Thực nghiệm/KAS_PPI_v2/mo_rong_08_10/ket_qua/e1_summary.json,
+  Trục hoành: results/extended_E/e1_summary.json,
               khoá "<rf|xgb>"["del_ks_<PP>"] (deletion AUC dưới toán tử ks, 2,200 cặp mỗi mô hình;
               PP = D (KAS), LOO, SEEKN, SEEKS, random). Đây là nguồn của Bảng 4.16.
-  Trục tung : Thực nghiệm/KAS_PPI_v2/mo_rong_08_10/ket_qua/plaus_REACTOME_seekx.json,
+  Trục tung : results/extended_E/plaus_REACTOME_seekx.json,
               khoá results["seekx|<rf|xgb>"]["metrics"][<PP>]["hit1"]["mean"] và ["ci95"]
-              (bootstrap 1,000 lần, xem mo_rong_08_10/plaus2.py); số cặp: ["n_informative"].
+              (bootstrap 1,000 lần, xem experiments/extended_E/plaus2.py); số cặp: ["n_informative"].
               Đây là nguồn của Bảng 4.23.
 Đối chiếu: Bảng 4.16 (dòng toán tử ks), Bảng 4.23 (hit@1 và số cặp).
 Chạy: python3 ve_hinh_4_5.py
@@ -20,10 +20,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-ROOT = "/mnt/project-files/1.Luận văn"
-TN = f"{ROOT}/Thực nghiệm"
-CHUONG4 = f"{ROOT}/Báo cáo/luan_van_text/Chuong4_Thuc_nghiem.txt"
 OUT = os.path.dirname(os.path.abspath(__file__))
+RES = os.path.join(os.path.dirname(OUT), "results")   # thư mục results/ của kho
+CHUONG4 = os.path.join(OUT, "bang_chuong4.txt")        # các bảng Chương 4 dùng để đối chiếu
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans", "font.size": 9, "axes.titlesize": 9.5,
@@ -43,7 +42,7 @@ DAU = {"KAS": "o", "LOO": "s", "FS0": "^", "TreeSHAP": "D", "LIME": "v",
        "SEEKN": "P", "SEEKS": "X", "Random": "h", "DT6": "o", "GP6x": "D"}
 
 def doc_bang(so_bang):
-    """Đọc Bảng <so_bang> trong Chuong4_Thuc_nghiem.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
+    """Đọc Bảng <so_bang> trong bang_chuong4.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
     lines = open(CHUONG4, encoding="utf-8").read().split("\n")
     i = next(j for j, l in enumerate(lines) if l.startswith(f"Bảng {so_bang}."))
     rows = []
@@ -84,8 +83,8 @@ def tong_ket(ten_hinh):
     for k in sai:
         print(f"  LỆCH: {k[0]}: tệp {k[1]!r}, bảng {k[2]}")
 # ---------------------------------------------------------------------------
-S_FID = f"{TN}/KAS_PPI_v2/mo_rong_08_10/ket_qua/e1_summary.json"
-S_PL = f"{TN}/KAS_PPI_v2/mo_rong_08_10/ket_qua/plaus_REACTOME_seekx.json"
+S_FID = f"{RES}/extended_E/e1_summary.json"
+S_PL = f"{RES}/extended_E/plaus_REACTOME_seekx.json"
 PP = ["KAS", "LOO", "SEEKN", "SEEKS", "Random"]
 KHOA = {"KAS": "D", "Random": "random"}
 MO = {"RF100": "rf", "XGB300": "xgb"}

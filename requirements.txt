@@ -1,4 +1,4 @@
-# Môi trường chuẩn của luận văn (Google Colab, Python 3.13), lấy từ pip_freeze_colab_v4_final.txt
+# Môi trường chuẩn của luận văn: Python 3.13 (Google Colab), lấy từ results/environment/pip_freeze_colab_v4_final.txt
 numpy==2.1.3
 scipy==1.16.3
 pandas==2.2.3
