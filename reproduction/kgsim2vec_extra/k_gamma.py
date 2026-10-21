@@ -4,8 +4,8 @@ Same logic, faster: coverage(c) = % of GAF proteins (all lines, as process_GAFve
 subClassOf-ancestors include c; a class no annotation reaches gets 0 (instead of KeyError). Starting from the 3 roots
 and expanding once gives the 52 base aspects, so the gamma variant = base aspects with coverage >= gamma.
 The code compares percentages with gamma directly, so gamma=0.01 means 0.01 %; the paper's text says 1 %. Both reported."""
-import sys, json, collections, numpy as np
-V = "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2"
+import sys, os, json, collections, numpy as np
+V = os.environ.get("KGSIM_WORKDIR", "work")   # thư mục làm việc: bản clone ExplainablePPI, feats_kg.npz, k10/
 sys.path.insert(0, f"{V}/k10"); import kgsim_fix as KF
 parents, label = KF.parse_go(f"{V}/godata/go-basic.owl")
 anc_cache = {}

@@ -2,7 +2,7 @@
  "alg": "GP6x",
  "fold": 5,
  "seed": 1,
- "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "feats": "work/k10/feats_base51.npz",
  "WAF": 0.8599842308772384,
  "seconds": 75,
  "model": "Max(0.208, behavior, catalytic_activity, cellular_process, immune_system_process, molecular_function_regulator, rhythmic_process)"

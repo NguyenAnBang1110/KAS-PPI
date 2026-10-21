@@ -3,13 +3,13 @@ Authors' pickled fold-1 models (Experimental_Results/Results/{RF,XGB}/Model__Run
   RF  = sklearn 0.21.3 RandomForestClassifier() -> n_estimators = 10 (old default; now 100)
   XGB = XGBClassifier() with n_estimators 100, eta 0.3, max_depth 6, tree_method 'exact' (xgboost now defaults to 'hist')
 usage: python3 k_models.py FEATS_NPZ OUT_JSON [SEEDS]"""
-import sys, json, numpy as np
+import sys, os, json, numpy as np
 from statistics import median
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import f1_score
 import xgboost as xgb
-V = "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2"
+V = os.environ.get("KGSIM_WORKDIR", "work")   # thư mục làm việc: bản clone ExplainablePPI, feats_kg.npz, k10/
 FE, OUT = sys.argv[1], sys.argv[2]; SEEDS = [int(s) for s in (sys.argv[3] if len(sys.argv) > 3 else "0,1,2,3,4").split(",")]
 X = np.load(FE)["X"]; y = np.load(f"{V}/feats_kg.npz")["y"]
 P = f"{V}/ExplainablePPI/Experimental_Results/Data/StratifiedPartitions/Indexes__crossvalidationTest__Run"

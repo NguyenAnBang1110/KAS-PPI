@@ -2,7 +2,7 @@
  "alg": "GP",
  "fold": 8,
  "seed": 0,
- "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_gamma001.npz",
+ "feats": "work/k10/feats_gamma001.npz",
  "WAF": 0.888551250010639,
  "seconds": 134,
  "model": "Max(immune_system_process, multicellular_organismal_process, signaling, Min(1, (Max(cellular_anatomical_entity, cellular_process) + Max(cellular_process, 2*(cellular_process + molecular_transducer_activity)*Max(cellular_process, multicellular_organismal_process), Max(cellular_process, (molecular_transducer_activity + Max(cellular_anatomical_entity, cellular_process))**2*Max(catalytic_activity, cellular_anatomical_entity, cellular_process))*Max(catalytic_activity, cellular_anatomical_entity, cellular_process)))*Max(catalytic_activity, cellular_process, multicellular_organismal_process)*Max(immune_system_process, molecular_transducer_activity, Max(cellular_anatomical_entity, cellular_process)*Max(binding, cellular_process, immune_system_process, multicellular_organismal_process, Max(cellular_anatomical_entity, cellular_process)*Max(catalytic_activity, cellular_process, multicellular_organismal_process)))))"

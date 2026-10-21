@@ -2,7 +2,7 @@
  "alg": "GP",
  "fold": 3,
  "seed": 0,
- "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_base51.npz",
+ "feats": "work/k10/feats_base51.npz",
  "WAF": 0.879685767544687,
  "seconds": 297,
  "model": "Max(multicellular_organismal_process, cellular_anatomical_entity*Max(cellular_anatomical_entity**2*Max(cellular_anatomical_entity*Max(cellular_anatomical_entity*Max(cellular_process, immune_system_process + Max(protein_tag, sulfur_utilization)), biological_phase + catalytic_activity, immune_system_process + Max(protein_tag, rhythmic_process, sulfur_utilization)), biological_phase + biomineralization, biological_phase + catalytic_activity, intraspecies_interaction_between_organisms + metabolic_process), biological_phase + biomineralization, biological_phase + catalytic_activity, intraspecies_interaction_between_organisms + metabolic_process), Max(biological_regulation, cellular_process)*Max(catalytic_activity, cellular_process, sulfur_utilization, biological_regulation*cellular_anatomical_entity, cellular_anatomical_entity*response_to_stimulus, intraspecies_interaction_between_organisms + metabolic_process), antioxidant_activity + structural_molecule_activity)"

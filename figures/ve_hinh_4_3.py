@@ -1,10 +1,10 @@
 """Hình 4.3. ROAR hai chiều trên 47,142 cặp, RF100: mức giảm WAF theo k ở chiều MoRF và LeRF.
 
-Nguồn: Thực nghiệm/KAS_PPI_v2/mo_rong_08_10/ket_qua/roar_sym_kg_rf.json (view KGsim2vec, E3)
-       Thực nghiệm/KAS_PPI_v2/mo_rong_08_10/ket_qua/roar_sym_seek_rf.json (view SEEK, E2)
+Nguồn: results/extended_E/roar_sym_kg_rf.json (view KGsim2vec, E3)
+       results/extended_E/roar_sym_seek_rf.json (view SEEK, E2)
   khoá "base" (WAF 10 fold của mô hình gốc), "res"["<PP>|<MoRF|LeRF>|<k>"] (WAF 10 fold sau khi xoá k aspect
   và huấn luyện lại). Mức giảm = trung vị(base) − trung vị(res), đúng công thức của
-  mo_rong_08_10/analyze_sym.py, script đã sinh e2_/e3_roar_sym_*.txt.
+  experiments/extended_E/analyze_sym.py, script đã sinh e2_/e3_roar_sym_*.txt.
 Đối chiếu: Bảng 4.12, 4.13 (cột MoRF và LeRF), WAF gốc với Bảng 4.9.
 Chạy: python3 ve_hinh_4_3.py
 """
@@ -17,10 +17,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-ROOT = "/mnt/project-files/1.Luận văn"
-TN = f"{ROOT}/Thực nghiệm"
-CHUONG4 = f"{ROOT}/Báo cáo/luan_van_text/Chuong4_Thuc_nghiem.txt"
 OUT = os.path.dirname(os.path.abspath(__file__))
+RES = os.path.join(os.path.dirname(OUT), "results")   # thư mục results/ của kho
+CHUONG4 = os.path.join(OUT, "bang_chuong4.txt")        # các bảng Chương 4 dùng để đối chiếu
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans", "font.size": 9, "axes.titlesize": 9.5,
@@ -40,7 +39,7 @@ DAU = {"KAS": "o", "LOO": "s", "FS0": "^", "TreeSHAP": "D", "LIME": "v",
        "SEEKN": "P", "SEEKS": "X", "Random": "h", "DT6": "o", "GP6x": "D"}
 
 def doc_bang(so_bang):
-    """Đọc Bảng <so_bang> trong Chuong4_Thuc_nghiem.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
+    """Đọc Bảng <so_bang> trong bang_chuong4.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
     lines = open(CHUONG4, encoding="utf-8").read().split("\n")
     i = next(j for j, l in enumerate(lines) if l.startswith(f"Bảng {so_bang}."))
     rows = []
@@ -81,8 +80,8 @@ def tong_ket(ten_hinh):
     for k in sai:
         print(f"  LỆCH: {k[0]}: tệp {k[1]!r}, bảng {k[2]}")
 # ---------------------------------------------------------------------------
-SRC = {"KGsim2vec": f"{TN}/KAS_PPI_v2/mo_rong_08_10/ket_qua/roar_sym_kg_rf.json",
-       "SEEK": f"{TN}/KAS_PPI_v2/mo_rong_08_10/ket_qua/roar_sym_seek_rf.json"}
+SRC = {"KGsim2vec": f"{RES}/extended_E/roar_sym_kg_rf.json",
+       "SEEK": f"{RES}/extended_E/roar_sym_seek_rf.json"}
 BANG = {"KGsim2vec": "4.12", "SEEK": "4.13"}
 KHOA = {"KAS": "D", "Random": "random"}  # tên trong luận văn -> tên khoá trong tệp
 PP = {"KGsim2vec": ["KAS", "LOO", "FS0", "TreeSHAP", "LIME", "Random"],

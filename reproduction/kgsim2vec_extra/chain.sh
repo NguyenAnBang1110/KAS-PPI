@@ -1,9 +1,10 @@
-cd /tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10
+V="$(cd "${KGSIM_WORKDIR:-work}" && pwd)"   # thư mục làm việc tuyệt đối (xem k_gp.py)
+cd "$V/k10"
 while [ ! -f FEATS_DONE ]; do sleep 30; done
 python3 k_models.py feats_beta1.npz models_beta1.json 0,1,2 > log_models_beta1.txt 2>&1 &
 python3 k_models.py feats_gamma001.npz models_gamma001.json 0,1,2 > log_models_gamma001.txt 2>&1 &
 python3 - <<PY
-V="/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2"
+V="$V"
 c=[f"cd {V}/ExplainablePPI && python3 {V}/k10/k_gp.py {a} {f} 0 {V}/k10/feats_{v}.npz {V}/k10/gp_{v}" for v in ("beta1","gamma001") for a in ("GP","GP6x") for f in range(1,11)]
 open(f"{V}/k10/k3_cmds.txt","w").write("\n".join(c)+"\n")
 PY

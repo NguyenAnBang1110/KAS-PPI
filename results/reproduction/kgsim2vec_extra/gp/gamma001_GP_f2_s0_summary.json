@@ -2,7 +2,7 @@
  "alg": "GP",
  "fold": 2,
  "seed": 0,
- "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_gamma001.npz",
+ "feats": "work/k10/feats_gamma001.npz",
  "WAF": 0.8962993015491776,
  "seconds": 202,
  "model": "Max(multicellular_organismal_process, structural_molecule_activity, Min(rhythmic_process/behavior, (cellular_anatomical_entity + Max(cellular_process, immune_system_process, metabolic_process, molecular_function_regulator))*Max(cellular_process, Max(cellular_anatomical_entity, immune_system_process, molecular_function_regulator)*Max(biological_regulation, catalytic_activity, cellular_process, immune_system_process, locomotion, Min((binding + cellular_process)*Max(cellular_process, immune_system_process)*Max(cellular_process, multicellular_organismal_process), Max(multicellular_organismal_process, binding + metabolic_process))))*Max(biological_regulation, catalytic_activity, immune_system_process, molecular_function_regulator, molecular_transducer_activity, cellular_process*(binding + cellular_anatomical_entity + metabolic_process)*Max(cellular_process, locomotion, multicellular_organismal_process), Min((binding + cellular_process)*Max(cellular_process, immune_system_process)*Max(cellular_anatomical_entity, cellular_process, immune_system_process), Max(cellular_process, multicellular_organismal_process, binding + metabolic_process)))), Min(Max(cellular_anatomical_entity, cellular_process, immune_system_process)*Min((binding + metabolic_process)*Max(catalytic_activity, cellular_process), Max(immune_system_process, binding + metabolic_process)), Max(cellular_process, immune_system_process, metabolic_process, molecular_function_regulator)))"

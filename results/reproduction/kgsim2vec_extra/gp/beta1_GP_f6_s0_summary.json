@@ -2,7 +2,7 @@
  "alg": "GP",
  "fold": 6,
  "seed": 0,
- "feats": "/tmp/claude-0/-home-claude/ebe45e83-2762-5fc6-ac9d-6bee5cbe5bce/scratchpad/v2/k10/feats_beta1.npz",
+ "feats": "work/k10/feats_beta1.npz",
  "WAF": 0.8843236938817342,
  "seconds": 293,
  "model": "Max(cellular_process*Max(cellular_process, immune_system_process, binding + pigmentation + Min(other_organism_part, rhythmic_process)), Max(metabolic_process, Max(metabolic_process, Max(biological_regulation, cellular_process, metabolic_process)*Max(biological_regulation, cellular_process, metabolic_process, binding + pigmentation), Max(metabolic_process, structural_molecule_activity, Max(cellular_anatomical_entity, rhythmic_process)*Max(metabolic_process, structural_molecule_activity, Max(cellular_anatomical_entity, rhythmic_process)*Max(cellular_process, immune_system_process, metabolic_process, structural_molecule_activity, Max(biological_regulation, cellular_process, binding + pigmentation + Min(other_organism_part, rhythmic_process))*Max(biological_regulation, cellular_process, metabolic_process, (binding + pigmentation)*Max(cellular_anatomical_entity, pigmentation)))))*Max(biological_regulation, cellular_anatomical_entity, cellular_process, immune_system_process, metabolic_process, structural_molecule_activity))*Max(cellular_anatomical_entity, cellular_process, interspecies_interaction_between_organisms, structural_molecule_activity), molecular_template_activity + multicellular_organismal_process)*Max(biological_regulation, cellular_anatomical_entity, cellular_process, metabolic_process, structural_molecule_activity, molecular_template_activity + multicellular_organismal_process))"

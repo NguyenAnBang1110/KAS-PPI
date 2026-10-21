@@ -1,6 +1,6 @@
 """Hình 4.6. Thứ hạng nhóm theo KAS-group so với thứ hạng theo ablation có huấn luyện lại.
 
-Nguồn: Thực nghiệm/KAS_PPI_v2/kas_group/kasg_summary.json, bốn khối "kg_source", "kg_evidence",
+Nguồn: results/kas_group/kasg_summary.json, bốn khối "kg_source", "kg_evidence",
   "seek_source", "seek_evidence"; trong mỗi khối: "groups" (tên nhóm), "scores"["KASg_help"]
   (điểm toàn cục KAS-group), "drop" (mức giảm WAF khi bỏ nhóm và huấn luyện lại, dạng tỉ lệ;
   ×100 = điểm phần trăm như Bảng 4.25–4.26), "rho_KASg_help" (Spearman với drop / với excess).
@@ -19,10 +19,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-ROOT = "/mnt/project-files/1.Luận văn"
-TN = f"{ROOT}/Thực nghiệm"
-CHUONG4 = f"{ROOT}/Báo cáo/luan_van_text/Chuong4_Thuc_nghiem.txt"
 OUT = os.path.dirname(os.path.abspath(__file__))
+RES = os.path.join(os.path.dirname(OUT), "results")   # thư mục results/ của kho
+CHUONG4 = os.path.join(OUT, "bang_chuong4.txt")        # các bảng Chương 4 dùng để đối chiếu
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans", "font.size": 9, "axes.titlesize": 9.5,
@@ -42,7 +41,7 @@ DAU = {"KAS": "o", "LOO": "s", "FS0": "^", "TreeSHAP": "D", "LIME": "v",
        "SEEKN": "P", "SEEKS": "X", "Random": "h", "DT6": "o", "GP6x": "D"}
 
 def doc_bang(so_bang):
-    """Đọc Bảng <so_bang> trong Chuong4_Thuc_nghiem.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
+    """Đọc Bảng <so_bang> trong bang_chuong4.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
     lines = open(CHUONG4, encoding="utf-8").read().split("\n")
     i = next(j for j, l in enumerate(lines) if l.startswith(f"Bảng {so_bang}."))
     rows = []
@@ -84,8 +83,8 @@ def tong_ket(ten_hinh):
         print(f"  LỆCH: {k[0]}: tệp {k[1]!r}, bảng {k[2]}")
 # ---------------------------------------------------------------------------
 from scipy.stats import rankdata, spearmanr
-SRC = f"{TN}/KAS_PPI_v2/kas_group/kasg_summary.json"
-SRC_TXT = f"{TN}/KAS_PPI_v2/kas_group/kasg_summary.txt"
+SRC = f"{RES}/kas_group/kasg_summary.json"
+SRC_TXT = f"{RES}/kas_group/kasg_summary.txt"
 S = json.load(open(SRC))
 CAUHINH = [("kg_source", "KGsim2vec, nguồn gán", "4.25", "KGsim2vec"),
            ("kg_evidence", "KGsim2vec, mã bằng chứng", "4.26", "KGsim2vec"),

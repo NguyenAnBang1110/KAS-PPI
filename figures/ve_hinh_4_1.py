@@ -1,13 +1,13 @@
 """Hình 4.1. Kích thước và độ thông tin (IC trung bình) của giải thích KGsim2vec tái hiện trên partition 1.
 
-Nguồn số tái hiện: Thực nghiệm/Tai_hien_SEEK_KGsim2vec/bo_sung_10_10/ket_qua/
+Nguồn số tái hiện: results/reproduction/kgsim2vec_extra/
     k4_expl_base51.json, k4_expl_beta1.json, k4_expl_gamma001.json
   khoá "<DT6|RF+LIME3|XGB+LIME3|RF+LIME8|XGB+LIME8>"["size"|"avgIC"]["median"|"q1"|"q3"|"n"],
   "GP6x" (danh sách theo seed: "seed", "size", "avgIC"), "n_aspects".
   Các tệp này CHỈ lưu trung vị, Q1, Q3 (k_expl.py không lưu giá trị từng cặp), nên hình vẽ hộp Q1–Q3 và
   vạch trung vị, KHÔNG có râu (whisker) hay điểm ngoại lai. GP6x chỉ có một giải thích mỗi seed nên vẽ từng seed.
 Nguồn số của bài báo (đọc bằng mắt từ Hình 3–5 của bài KGsim2vec, sai số khoảng ±0.02 IC), đã được ghi
-  thành số trong báo cáo tái hiện: Tai_hien_SEEK_KGsim2vec/bo_sung_10_10/BAO_CAO_TAI_HIEN_KGSIM2VEC_BO_SUNG_10_10.md,
+  thành số trong báo cáo tái hiện: figures/so_lieu_bai_kgsim2vec_K4.md,
   bảng ở mục "K4. Hình 3–5". Script đọc bảng đó; ô không có số của bài (ví dụ "→ 3 / .206", "giống Hình 3")
   thì không vẽ điểm của bài.
 Đối chiếu: Bảng 4.7 của Chuong4_Thuc_nghiem.txt (cả cột tái hiện lẫn cột bài báo).
@@ -22,10 +22,9 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-ROOT = "/mnt/project-files/1.Luận văn"
-TN = f"{ROOT}/Thực nghiệm"
-CHUONG4 = f"{ROOT}/Báo cáo/luan_van_text/Chuong4_Thuc_nghiem.txt"
 OUT = os.path.dirname(os.path.abspath(__file__))
+RES = os.path.join(os.path.dirname(OUT), "results")   # thư mục results/ của kho
+CHUONG4 = os.path.join(OUT, "bang_chuong4.txt")        # các bảng Chương 4 dùng để đối chiếu
 
 plt.rcParams.update({
     "font.family": "DejaVu Sans", "font.size": 9, "axes.titlesize": 9.5,
@@ -45,7 +44,7 @@ DAU = {"KAS": "o", "LOO": "s", "FS0": "^", "TreeSHAP": "D", "LIME": "v",
        "SEEKN": "P", "SEEKS": "X", "Random": "h", "DT6": "o", "GP6x": "D"}
 
 def doc_bang(so_bang):
-    """Đọc Bảng <so_bang> trong Chuong4_Thuc_nghiem.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
+    """Đọc Bảng <so_bang> trong bang_chuong4.txt: trả về các dòng (danh sách ô), dòng 0 là tiêu đề."""
     lines = open(CHUONG4, encoding="utf-8").read().split("\n")
     i = next(j for j, l in enumerate(lines) if l.startswith(f"Bảng {so_bang}."))
     rows = []
@@ -86,8 +85,8 @@ def tong_ket(ten_hinh):
     for k in sai:
         print(f"  LỆCH: {k[0]}: tệp {k[1]!r}, bảng {k[2]}")
 # ---------------------------------------------------------------------------
-KQ = f"{TN}/Tai_hien_SEEK_KGsim2vec/bo_sung_10_10/ket_qua"
-BAOCAO = f"{TN}/Tai_hien_SEEK_KGsim2vec/bo_sung_10_10/BAO_CAO_TAI_HIEN_KGSIM2VEC_BO_SUNG_10_10.md"
+KQ = f"{RES}/reproduction/kgsim2vec_extra"
+BAOCAO = os.path.join(OUT, "so_lieu_bai_kgsim2vec_K4.md")
 CFG = [("base51", "Như Hình 3 của bài:\nα = 10, β = 0, γ = 0"), ("beta1", "Như Hình 4 của bài:\nβ = 1"),
        ("gamma001", "Như Hình 5 của bài:\nγ = 1%")]
 J = {c: json.load(open(f"{KQ}/k4_expl_{c}.json")) for c, _ in CFG}
